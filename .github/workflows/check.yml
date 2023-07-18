@@ -65,9 +65,9 @@ jobs:
       run: rails RAILS_ENV=test db:migrate
       working-directory: ${{ env.server-directory }}
     - name: Migrate db
-      run: rails db:migrate RAILS_ENV=test
+      run: rails RAILS_ENV=test db:migrate
     - name: Seed db
-      run: rails db:seed RAILS_ENV=test
+      run: rails RAILS_ENV=test db:seed
     - name: Run tests
       run: rails test
       working-directory: ${{ env.server-directory }}
