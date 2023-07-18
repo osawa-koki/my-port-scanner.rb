@@ -1,42 +1,73 @@
-name: Check
+name: Run check
 
 on:
   push:
     branches:
       - main
       - develop
-      - 'issue/*'
+      - issues/*
   pull_request:
     branches:
       - main
       - develop
-      - 'issue/*'
+      - issues/*
 
 env:
   client-directory: ./client
+  server-directory: ./server
 
 jobs:
-  check:
-    runs-on: ubuntu-latest
+  client-check:
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
-        node-version: [ 18.x, 20.x ]
+        node-version: [ 16.x, 18.x, 20.x ]
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Install dependencies
-        run: yarn install
-        working-directory: ${{ env.client-directory }}
-      - name: Run tests
-        run: yarn test
-        working-directory: ${{ env.client-directory }}
-      - name: Linter check
-        run: yarn lint:check
-        working-directory: ${{ env.client-directory }}
-      - name: Check for security vulnerabilities
-        run: yarn audit
-        working-directory: ${{ env.client-directory }}
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Install dependencies
+      run: yarn install
+      working-directory: ${{ env.client-directory }}
+    - name: Run linter
+      run: yarn lint:check
+      working-directory: ${{ env.client-directory }}
+    - name: Run tests
+      run: yarn test
+      working-directory: ${{ env.client-directory }}
+    - name: Check for security vulnerabilities
+      run: yarn audit
+      working-directory: ${{ env.client-directory }}
+  server-check:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        ruby-version: [ 3.2.2 ]
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Use Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: ${{ matrix.ruby-version }}
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
+      working-directory: ${{ env.server-directory }}
+    - name: Run linter
+      run: rubocop
+      working-directory: ${{ env.server-directory }}
+    - name: DB setup
+      run: rails RAILS_ENV=test db:migrate
+      working-directory: ${{ env.server-directory }}
+    - name: Migrate db
+      run: rails db:migrate RAILS_ENV=test
+    - name: Seed db
+      run: rails db:seed RAILS_ENV=test
+    - name: Run tests
+      run: rails test
+      working-directory: ${{ env.server-directory }}
