@@ -1,13 +1,14 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
 import React, { useEffect, useMemo, useState } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import { Pagination, Table } from 'react-bootstrap'
+import { Alert, Pagination, Spinner, Table } from 'react-bootstrap'
 import useSWR from 'swr'
 import dayjs from 'dayjs'
 import Layout from '../components/Layout'
 import setting from '../setting'
 
-type Portscan = {
+interface IPortscan {
   id: number
   host: string
   ip_address: string
@@ -15,7 +16,7 @@ type Portscan = {
   updated_at: Date
 }
 
-type Pagination = {
+interface IPagination {
   current_page: number
   next_page: number | null
   prev_page: number | null
@@ -23,11 +24,10 @@ type Pagination = {
   total_count: number
 }
 
-const emptyFunction = () => {}
-const fetcher = (url: string) => fetch(url).then((res) => res.ok ? res.json() : null)
+const emptyFunction = (): void => {}
+const fetcher = async (url: string): Promise<void> => await fetch(url).then(async (res) => res.ok ? await res.json() : null)
 
 function TableComponent (): JSX.Element {
-
   const [page, setPage] = useState<number>(1)
   const router = useRouter()
   const [firstLock, setFirstLock] = useState(false)
@@ -49,8 +49,8 @@ function TableComponent (): JSX.Element {
     data,
     error
   } = useSWR<{
-    data: Portscan[]
-    pagination: Pagination
+    data: IPortscan[]
+    pagination: IPagination
   }>(`${setting.apiPath}/api/portscans?page=${page}`, fetcher)
 
   const {
@@ -63,17 +63,17 @@ function TableComponent (): JSX.Element {
     }
   }, [data])
 
-  if (error) return <div>failed to load</div>
-  if (!data) return <div>loading...</div>
+  if (error != null) return <Alert variant='danger'>Error: failed to fetch data.</Alert>
+  if (data == null) return <Spinner animation='border' />
 
   return (
     <>
     <Pagination className='mt-3'>
-      <Pagination.First onClick={() => {setPage(1)}} disabled={page == 1} />
-      <Pagination.Prev onClick={() => {setPage(pagination!.current_page - 1)}} disabled={pagination?.prev_page == null} />
+      <Pagination.First onClick={() => { setPage(1) }} disabled={page === 1} />
+      <Pagination.Prev onClick={() => { setPage(pagination!.current_page - 1) }} disabled={pagination?.prev_page === null} />
       <Pagination.Item>{pagination?.current_page}</Pagination.Item>
-      <Pagination.Next onClick={() => {setPage(pagination!.current_page + 1)}} disabled={pagination?.next_page == null} />
-      <Pagination.Last onClick={() => {setPage(pagination!.total_pages)}} disabled={page == pagination?.total_pages} />
+      <Pagination.Next onClick={() => { setPage(pagination!.current_page + 1) }} disabled={pagination?.next_page === null} />
+      <Pagination.Last onClick={() => { setPage(pagination!.total_pages) }} disabled={page === pagination?.total_pages} />
     </Pagination>
     <Table className='mt-3' striped bordered hover>
       <thead>
@@ -101,8 +101,7 @@ function TableComponent (): JSX.Element {
   )
 }
 
-export default function LogPage(): JSX.Element {
-
+export default function LogPage (): JSX.Element {
   return (
     <Layout>
       <h1>Portscan Log</h1>
