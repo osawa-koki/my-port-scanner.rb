@@ -49,3 +49,5 @@ group :development do
 end
 
 gem 'rubocop', '~> 1.54'
+
+gem "kaminari", "~> 1.2"

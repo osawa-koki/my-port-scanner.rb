@@ -6,7 +6,17 @@ require 'timeout'
 module Api
   class PortscanController < ApplicationController
     def index
-      render json: Portscan.all.to_json(include: [:portscan_results]), status: :ok
+      data = Portscan.all.includes(:portscan_results).order(created_at: :desc).page(params[:page])
+      render json: {
+        data: data,
+        pagination: {
+          current_page: data.current_page,
+          next_page: data.next_page,
+          prev_page: data.prev_page,
+          total_pages: data.total_pages,
+          total_count: data.total_count
+        }
+      }, status: :ok
     end
 
     def create
