@@ -5,6 +5,10 @@ require 'timeout'
 
 module Api
   class PortscanController < ApplicationController
+    def index
+      render json: Portscan.all.to_json(include: [:portscan_results]), status: :ok
+    end
+
     def create
       portscan_instance = Portscan.new(permitted_params)
       unless portscan_instance.valid?
