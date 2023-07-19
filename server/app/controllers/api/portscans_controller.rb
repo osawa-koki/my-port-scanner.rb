@@ -4,7 +4,7 @@ require 'socket'
 require 'timeout'
 
 module Api
-  class PortscanController < ApplicationController
+  class PortscansController < ApplicationController
     def index # rubocop:disable Metrics/MethodLength
       data = Portscan.all.includes(:portscan_results).order(created_at: :desc).page(params[:page])
       render json: {
