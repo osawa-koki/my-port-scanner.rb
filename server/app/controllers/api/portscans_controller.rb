@@ -30,6 +30,15 @@ module Api
       render json: portscan_instance.to_json(include: [:portscan_results]), status: :ok
     end
 
+    def show
+      portscan_instance = Portscan.find_by(id: params[:id])
+      if portscan_instance.nil?
+        render json: { errors: 'Portscan not found.' }, status: :not_found
+        return
+      end
+      render json: portscan_instance.to_json(include: [:portscan_results]), status: :ok
+    end
+
     private
 
     def permitted_params
