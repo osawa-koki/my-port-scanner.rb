@@ -7,22 +7,22 @@ import dayjs from 'dayjs'
 import setting from '../setting'
 import Layout from '../components/Layout'
 
-type IPortscanResult = {
+interface IPortscanResult {
   id: number
   host: string
   ip_address: string
   created_at: Date
   updated_at: Date
-  portscan_results: {
+  portscan_results: Array<{
     id: number
     port_number: number
     open: boolean
     created_at: Date
     updated_at: Date
-  }[]
+  }>
 }
 
-function Component(): JSX.Element {
+function Component (): JSX.Element {
   const router = useRouter()
 
   const [id, setId] = useState<number | null>(null)
@@ -37,8 +37,8 @@ function Component(): JSX.Element {
     data,
     error
   } = useSWR<
-    IPortscanResult
-  >(id ? `${setting.apiPath}/api/portscans/${id}` : null, async (url: string) => {
+  IPortscanResult
+  >(id != null ? `${setting.apiPath}/api/portscans/${id}` : null, async (url: string) => {
     const response = await fetch(url)
     if (response.status === 404) {
       setResponseStatus(404)
@@ -104,7 +104,7 @@ function Component(): JSX.Element {
   )
 }
 
-export default function ResultPage(): JSX.Element {
+export default function ResultPage (): JSX.Element {
   return (
     <Layout>
       <h1>Portscan Result</h1>
