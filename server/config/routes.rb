@@ -6,6 +6,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   namespace :api do
-    resources :portscan, only: %i[index create]
+    resources :portscans, only: %i[index create]
   end
 end
