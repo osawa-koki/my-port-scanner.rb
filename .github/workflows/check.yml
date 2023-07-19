@@ -35,6 +35,9 @@ jobs:
     - name: Run linter
       run: yarn lint:check
       working-directory: ${{ env.client-directory }}
+    - name: Type check
+      run: yarn type-check
+      working-directory: ${{ env.client-directory }}
     - name: Run tests
       run: yarn test
       working-directory: ${{ env.client-directory }}
