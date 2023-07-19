@@ -4,6 +4,8 @@ require 'socket'
 require 'timeout'
 
 class Portscan < ApplicationRecord
+  has_many :portscan_results, dependent: :destroy
+
   after_initialize :set_ip_address
   after_validation :validate_port_range
 
@@ -49,6 +51,7 @@ class Portscan < ApplicationRecord
       end
     end
     threads.each(&:join)
+    save_results(results)
     results
   end
 
@@ -70,5 +73,11 @@ class Portscan < ApplicationRecord
     { port_number:, open: true }
   rescue Timeout::Error, Errno::ETIMEDOUT
     { port_number:, open: false }
+  end
+
+  def save_results(results)
+    results.each do |result|
+      portscan_results.create!(result)
+    end
   end
 end
