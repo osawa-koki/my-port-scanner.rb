@@ -5,10 +5,10 @@ require 'timeout'
 
 module Api
   class PortscanController < ApplicationController
-    def index
+    def index # rubocop:disable Metrics/MethodLength
       data = Portscan.all.includes(:portscan_results).order(created_at: :desc).page(params[:page])
       render json: {
-        data: data,
+        data:,
         pagination: {
           current_page: data.current_page,
           next_page: data.next_page,
