@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  host: MyString
+  ip_address: MyString
+  port_start: 1
+  port_end: 1
+  timeout_second: 1
+  thread_count: 1
+
+two:
+  host: MyString
+  ip_address: MyString
+  port_start: 1
+  port_end: 1
+  timeout_second: 1
+  thread_count: 1
