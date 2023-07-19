@@ -52,4 +52,4 @@ gem 'rubocop', '~> 1.54'
 
 gem 'kaminari', '~> 1.2'
 
-gem "rack-cors", "~> 2.0"
+gem 'rack-cors', '~> 2.0'
