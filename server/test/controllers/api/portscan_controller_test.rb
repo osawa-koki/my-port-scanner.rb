@@ -3,7 +3,7 @@
 require 'test_helper'
 
 module Api
-  class UtilControllerTest < ActionDispatch::IntegrationTest
+  class PortscanControllerTest < ActionDispatch::IntegrationTest
     # test "the truth" do
     #   assert true
     # end
