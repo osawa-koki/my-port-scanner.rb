@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 20_230_718_140_411) do
+ActiveRecord::Schema[7.0].define(version: 20_230_719_095_749) do
+  create_table 'portscan_results', force: :cascade do |t|
+    t.integer 'portscan_id', null: false
+    t.integer 'port_number', null: false
+    t.boolean 'open', null: false
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+    t.index ['portscan_id'], name: 'index_portscan_results_on_portscan_id'
+  end
+
   create_table 'portscans', force: :cascade do |t|
     t.string 'host', null: false
     t.string 'ip_address', null: false
@@ -21,4 +30,6 @@ ActiveRecord::Schema[7.0].define(version: 20_230_718_140_411) do
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
   end
+
+  add_foreign_key 'portscan_results', 'portscans'
 end

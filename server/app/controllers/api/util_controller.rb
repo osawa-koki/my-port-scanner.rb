@@ -11,9 +11,9 @@ module Api
         render json: { errors: portscan_instance.errors.full_messages }, status: :unprocessable_entity
         return
       end
-      results = portscan_instance.start_scanning
+      portscan_instance.start_scanning
       portscan_instance.save!
-      render json: results
+      render json: portscan_instance.portscan_results.includes(:portscan).to_json(include: [:portscan]), status: :ok
     end
 
     private
