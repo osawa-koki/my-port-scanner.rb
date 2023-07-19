@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 import { Alert, OverlayTrigger, Spinner, Table, Tooltip } from 'react-bootstrap'
+import { BsLightningChargeFill, BsLightningCharge } from 'react-icons/bs'
 import useSWR from 'swr'
 import dayjs from 'dayjs'
 import setting from '../setting'
@@ -51,10 +52,10 @@ function Component(): JSX.Element {
     return null
   })
 
-  // return <>{JSON.stringify(data)}</>
-
   if (error != null) return <Alert variant="danger">Error: failed to fetch data.</Alert>
   if (data == null) return <Spinner animation="border" />
+  if (responseStatus === 404) return <Alert variant="danger">Error: not found.</Alert>
+  if (responseStatus === 999) return <Alert variant="danger">Error: unknown error.</Alert>
 
   return (
     <>
@@ -81,7 +82,7 @@ function Component(): JSX.Element {
           </tr>
         </tbody>
       </Table>
-      <Table striped bordered hover>
+      <Table className='text-center' striped bordered hover>
         <thead>
           <tr>
             <th>Port</th>
@@ -93,7 +94,7 @@ function Component(): JSX.Element {
           {data.portscan_results.map((portscanResult) => (
             <tr key={portscanResult.id}>
               <td>{portscanResult.port_number}</td>
-              <td>{portscanResult.open ? 'Open' : 'Close'}</td>
+              <td>{portscanResult.open ? <BsLightningChargeFill className='text-danger' /> : <BsLightningCharge />}</td>
               <td>{dayjs(portscanResult.created_at).format('YYYY-MM-DD HH:mm:ss')}</td>
             </tr>
           ))}
