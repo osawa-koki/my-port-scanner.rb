@@ -4,8 +4,8 @@ require 'socket'
 require 'timeout'
 
 module Api
-  class UtilController < ApplicationController
-    def portscan
+  class PortscanController < ApplicationController
+    def create
       portscan_instance = Portscan.new(permitted_params)
       unless portscan_instance.valid?
         render json: { errors: portscan_instance.errors.full_messages }, status: :unprocessable_entity
@@ -13,7 +13,7 @@ module Api
       end
       portscan_instance.start_scanning
       portscan_instance.save!
-      render json: portscan_instance.portscan_results.includes(:portscan).to_json(include: [:portscan]), status: :ok
+      render json: portscan_instance.to_json(include: [:portscan_results]), status: :ok
     end
 
     private
