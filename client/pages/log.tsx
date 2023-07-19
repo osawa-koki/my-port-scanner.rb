@@ -25,7 +25,7 @@ interface IPagination {
 }
 
 const emptyFunction = (): void => {}
-const fetcher = async (url: string): Promise<void> => await fetch(url).then(async (res) => res.ok ? await res.json() : null)
+const fetcher = async (url: string): Promise<any> => await fetch(url).then(async (res) => res.ok ? await res.json() : null)
 
 function TableComponent (): JSX.Element {
   const [page, setPage] = useState<number>(1)
