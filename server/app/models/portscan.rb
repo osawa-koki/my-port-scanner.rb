@@ -8,10 +8,18 @@ class Portscan < ApplicationRecord
   after_validation :validate_port_range
 
   validates :host, presence: true
-  validates :port_start, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 1, less_than_or_equal_to: 65_535 }
-  validates :port_end, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 1, less_than_or_equal_to: 65_535 }
-  validates :timeout_second, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 1, less_than_or_equal_to: 10 }
-  validates :thread_count, presence: true, numericality: { only_integer: true, greater_than_or_equal_to: 1, less_than_or_equal_to: 100 }
+  validates :port_start,
+            presence: true,
+            numericality: { only_integer: true, greater_than_or_equal_to: 1, less_than_or_equal_to: 65_535 }
+  validates :port_end,
+            presence: true,
+            numericality: { only_integer: true, greater_than_or_equal_to: 1, less_than_or_equal_to: 65_535 }
+  validates :timeout_second,
+            presence: true,
+            numericality: { only_integer: true, greater_than_or_equal_to: 1, less_than_or_equal_to: 10 }
+  validates :thread_count,
+            presence: true,
+            numericality: { only_integer: true, greater_than_or_equal_to: 1, less_than_or_equal_to: 100 }
 
   def start_scanning # rubocop:disable Metrics/MethodLength, Metrics/AbcSize
     puts "start scanning: #{host}."
