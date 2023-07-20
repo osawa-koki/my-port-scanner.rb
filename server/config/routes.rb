@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   # root "articles#index"
   namespace :api do
     resources :portscans, only: %i[index create show]
+    resources :ports, only: %i[index]
   end
 end
