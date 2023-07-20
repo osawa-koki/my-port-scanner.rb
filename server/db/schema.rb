@@ -25,8 +25,8 @@ ActiveRecord::Schema[7.0].define(version: 20_230_719_095_749) do
     t.string 'ip_address', null: false
     t.integer 'port_start', null: false
     t.integer 'port_end', null: false
-    t.integer 'timeout_second', null: false
-    t.integer 'thread_count', null: false
+    t.integer 'timeout_second', default: 1, null: false
+    t.integer 'thread_count', default: 10, null: false
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
   end

@@ -7,8 +7,8 @@ class CreatePortscans < ActiveRecord::Migration[7.0]
       t.string :ip_address, null: false
       t.integer :port_start, null: false
       t.integer :port_end, null: false
-      t.integer :timeout_second, null: false
-      t.integer :thread_count, null: false
+      t.integer :timeout_second, null: false, default: 1
+      t.integer :thread_count, null: false, default: 10
 
       t.timestamps
     end
