@@ -92,14 +92,14 @@ function Component (): JSX.Element {
         </thead>
         <tbody>
           {data.portscan_results
-          .sort((a, b) => a.port_number - b.port_number)
-          .map((portscanResult) => (
+            .sort((a, b) => a.port_number - b.port_number)
+            .map((portscanResult) => (
             <tr key={portscanResult.id}>
               <td>{portscanResult.port_number}</td>
               <td>{portscanResult.open ? <BsLightningChargeFill className='text-danger' /> : <BsLightningCharge />}</td>
               <td>{dayjs(portscanResult.created_at).format('YYYY-MM-DD HH:mm:ss')}</td>
             </tr>
-          ))}
+            ))}
         </tbody>
       </Table>
     </>
