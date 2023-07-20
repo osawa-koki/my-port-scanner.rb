@@ -10,26 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 20_230_719_095_749) do
-  create_table 'portscan_results', force: :cascade do |t|
-    t.integer 'portscan_id', null: false
-    t.integer 'port_number', null: false
-    t.boolean 'open', null: false
-    t.datetime 'created_at', null: false
-    t.datetime 'updated_at', null: false
-    t.index ['portscan_id'], name: 'index_portscan_results_on_portscan_id'
+ActiveRecord::Schema[7.0].define(version: 2023_07_19_095749) do
+  create_table "portscan_results", force: :cascade do |t|
+    t.integer "portscan_id", null: false
+    t.integer "port_number", null: false
+    t.boolean "open", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["portscan_id"], name: "index_portscan_results_on_portscan_id"
   end
 
-  create_table 'portscans', force: :cascade do |t|
-    t.string 'host', null: false
-    t.string 'ip_address', null: false
-    t.integer 'port_start', null: false
-    t.integer 'port_end', null: false
-    t.integer 'timeout_second', null: false
-    t.integer 'thread_count', null: false
-    t.datetime 'created_at', null: false
-    t.datetime 'updated_at', null: false
+  create_table "portscans", force: :cascade do |t|
+    t.string "host", null: false
+    t.string "ip_address", null: false
+    t.integer "port_start", null: false
+    t.integer "port_end", null: false
+    t.integer "timeout_second", default: 1, null: false
+    t.integer "thread_count", default: 10, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
-  add_foreign_key 'portscan_results', 'portscans'
+  add_foreign_key "portscan_results", "portscans"
 end

@@ -91,7 +91,9 @@ function Component (): JSX.Element {
           </tr>
         </thead>
         <tbody>
-          {data.portscan_results.map((portscanResult) => (
+          {data.portscan_results
+          .sort((a, b) => a.port_number - b.port_number)
+          .map((portscanResult) => (
             <tr key={portscanResult.id}>
               <td>{portscanResult.port_number}</td>
               <td>{portscanResult.open ? <BsLightningChargeFill className='text-danger' /> : <BsLightningCharge />}</td>
