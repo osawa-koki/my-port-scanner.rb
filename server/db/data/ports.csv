@@ -1,0 +1,2093 @@
+id,protocol,service,description,severity
+1,tcp/udp,tcpmux,TCP Port Service Multiplexer,3
+2,tcp/udp,compressnet,Management Utility,3
+3,tcp/udp,compressnet,Compression Process,3
+4,tcp/udp,#,Unassigned,3
+5,tcp/udp,rje,Remote Job Entry,3
+6,tcp/udp,#,Unassigned,3
+7,tcp/udp,echo,Echo,3
+8,tcp/udp,#,Unassigned,3
+9,tcp/udp,discard,Discard,3
+10,tcp/udp,#,Unassigned,3
+11,tcp/udp,systat,Active Users,3
+12,tcp/udp,#,Unassigned,3
+13,tcp/udp,daytime,Daytime (RFC 867),3
+14,tcp/udp,#,Unassigned,3
+15,tcp,#,Unassigned [was netstat],3
+15,udp,#,Unassigned,3
+16,tcp/udp,#,Unassigned,3
+17,tcp/udp,qotd,Quote of the Day,3
+18,tcp/udp,msp,Message Send Protocol,3
+19,tcp/udp,chargen,Character Generator,3
+20,tcp/udp,ftp-data,File Transfer [Default Data],5
+21,tcp/udp,ftp,File Transfer [Control],5
+22,tcp/udp,ssh,SSH Remote Login Protocol,5
+23,tcp/udp,telnet,Telnet,5
+24,tcp/udp,#,any private mail system,3
+25,tcp/udp,smtp,Simple Mail Transfer,3
+26,tcp/udp,#,Unassigned,3
+27,tcp/udp,nsw-fe,NSW User System FE,3
+28,tcp/udp,#,Unassigned,3
+29,tcp/udp,msg-icp,MSG ICP,3
+30,tcp/udp,#,Unassigned,3
+31,tcp/udp,msg-auth,MSG Authentication,3
+32,tcp/udp,#,Unassigned,3
+33,tcp/udp,dsp,Display Support Protocol,3
+34,tcp/udp,#,Unassigned,3
+35,tcp/udp,#,any private printer server,3
+36,tcp/udp,#,Unassigned,3
+37,tcp/udp,time,Time,3
+38,tcp/udp,rap,Route Access Protocol,3
+39,tcp/udp,rlp,Resource Location Protocol,3
+40,tcp/udp,#,Unassigned,3
+41,tcp/udp,graphics,Graphics,3
+42,udp,name,Host Name Server,3
+42,tcp/udp,nameserver,Host Name Server,3
+43,tcp/udp,nicname,Who Is,3
+44,tcp/udp,mpm-flags,MPM FLAGS Protocol,3
+45,tcp/udp,mpm,Message Processing Module [recv],3
+46,tcp/udp,mpm-snd,MPM [default send],3
+47,tcp/udp,ni-ftp,NI FTP,3
+48,tcp/udp,auditd,Digital Audit Daemon,3
+49,tcp/udp,tacacs,Login Host Protocol (TACACS),3
+50,tcp/udp,re-mail-ck,Remote Mail Checking Protocol,3
+51,tcp/udp,la-maint,IMP Logical Address Maintenance,3
+52,tcp/udp,xns-time,XNS Time Protocol,3
+53,tcp/udp,domain,Domain Name Server,3
+54,tcp/udp,xns-ch,XNS Clearinghouse,3
+55,tcp/udp,isi-gl,ISI Graphics Language,3
+56,tcp/udp,xns-auth,XNS Authentication,3
+57,tcp/udp,#,any private terminal access,3
+58,tcp/udp,xns-mail,XNS Mail,3
+59,tcp/udp,#,any private file service,3
+60,tcp/udp,#,Unassigned,3
+61,tcp/udp,ni-mail,NI MAIL,3
+62,tcp/udp,acas,ACA Services,3
+63,tcp/udp,whois++,whois++,3
+64,tcp/udp,covia,Communications Integrator (CI),3
+65,tcp/udp,tacacs-ds,TACACS-Database Service,3
+66,tcp/udp,sql*net,Oracle SQL*NET,3
+67,tcp/udp,bootps,Bootstrap Protocol Server,5
+68,tcp/udp,bootpc,Bootstrap Protocol Client,3
+69,tcp/udp,tftp,Trivial File Transfer,3
+70,tcp/udp,gopher,Gopher,5
+71,tcp/udp,netrjs-1,Remote Job Service,3
+72,tcp/udp,netrjs-2,Remote Job Service,3
+73,tcp/udp,netrjs-3,Remote Job Service,3
+74,tcp/udp,netrjs-4,Remote Job Service,3
+75,tcp/udp,#,any private dial out service,3
+76,tcp/udp,deos,Distributed External Object Store,3
+77,tcp/udp,#,any private RJE service,3
+78,tcp/udp,vettcp,vettcp,3
+79,tcp/udp,finger,Finger,5
+80,tcp/udp,http,World Wide Web HTTP,1
+81,tcp/udp,hosts2-ns,HOSTS2 Name Server,3
+82,tcp/udp,xfer,XFER Utility,3
+83,tcp/udp,mit-ml-dev,MIT ML Device,3
+84,tcp/udp,ctf,Common Trace Facility,3
+85,tcp/udp,mit-ml-dev,MIT ML Device,3
+86,tcp/udp,mfcobol,Micro Focus Cobol,3
+87,tcp/udp,#,any private terminal link,3
+88,tcp/udp,kerberos,Kerberos,3
+89,tcp/udp,su-mit-tg,SU/MIT Telnet Gateway,3
+90,tcp/udp,dnsix,DNSIX Securit Attribute Token Map,3
+91,tcp/udp,mit-dov,MIT Dover Spooler,3
+92,tcp/udp,npp,Network Printing Protocol,3
+93,tcp/udp,dcp,Device Control Protocol,3
+94,tcp/udp,objcall,Tivoli Object Dispatcher,3
+95,tcp/udp,supdup,SUPDUP,3
+96,tcp/udp,dixie,DIXIE Protocol Specification,3
+97,tcp/udp,swift-rvf,Swift Remote Virtural File Protocol,3
+98,tcp/udp,tacnews,TAC News,3
+99,tcp/udp,metagram,Metagram Relay,3
+100,tcp,newacct,[unauthorized use],3
+101,tcp/udp,hostname,NIC Host Name Server,3
+102,tcp/udp,iso-tsap,ISO-TSAP Class 0,3
+103,tcp/udp,gppitnp,Genesis Point-to-Point Trans Net,3
+104,tcp/udp,acr-nema,ACR-NEMA Digital Imag. & Comm. 300,3
+105,udp,cso,CCSO name server protocol,3
+105,tcp/udp,csnet-ns,Mailbox Name Nameserver,3
+106,tcp/udp,3com-tsmux,3COM-TSMUX,3
+107,tcp/udp,rtelnet,Remote Telnet Service,3
+108,tcp/udp,snagas,SNA Gateway Access Server,3
+109,tcp/udp,pop2,Post Office Protocol – Version 2,3
+110,tcp/udp,pop3,Post Office Protocol – Version 3,3
+111,tcp/udp,sunrpc,SUN Remote Procedure Call,5
+112,tcp/udp,mcidas,McIDAS Data Transmission Protocol,3
+113,tcp,ident,,3
+113,tcp/udp,auth,Authentication Service,3
+114,tcp/udp,audionews,Audio News Multicast,3
+115,tcp/udp,sftp,Simple File Transfer Protocol,3
+116,tcp/udp,ansanotify,ANSA REX Notify,3
+117,tcp/udp,uucp-path,UUCP Path Service,3
+118,tcp/udp,sqlserv,SQL Services,3
+119,tcp/udp,nntp,Network News Transfer Protocol,3
+120,tcp/udp,cfdptkt,CFDPTKT,3
+121,tcp/udp,erpc,Encore Expedited Remote Pro.Call,3
+122,tcp/udp,smakynet,SMAKYNET,3
+123,tcp/udp,ntp,Network Time Protocol,3
+124,tcp/udp,ansatrader,ANSA REX Trader,3
+125,tcp/udp,locus-map,Locus PC-Interface Net Map Ser,3
+126,tcp/udp,unitary,Unisys Unitary Login,3
+127,tcp/udp,locus-con,Locus PC-Interface Conn Server,3
+128,tcp/udp,gss-xlicen,GSS X License Verification,3
+129,tcp/udp,pwdgen,Password Generator Protocol,3
+130,tcp/udp,cisco-fna,cisco FNATIVE,3
+131,tcp/udp,cisco-tna,cisco TNATIVE,3
+132,tcp/udp,cisco-sys,cisco SYSMAINT,3
+133,tcp/udp,statsrv,Statistics Service,3
+134,tcp/udp,ingres-net,INGRES-NET Service,3
+135,tcp/udp,epmap,DCE endpoint resolution,3
+136,tcp/udp,profile,PROFILE Naming System,3
+137,tcp/udp,netbios-ns,NETBIOS Name Service,5
+138,tcp/udp,netbios-dgm,NETBIOS Datagram Service,5
+139,tcp/udp,netbios-ssn,NETBIOS Session Service,5
+140,tcp/udp,emfis-data,EMFIS Data Service,3
+141,tcp/udp,emfis-cntl,EMFIS Control Service,3
+142,tcp/udp,bl-idm,Britton-Lee IDM,3
+143,tcp/udp,imap,Internet Message Access Protocol,3
+144,tcp/udp,uma,Universal Management Architecture,3
+145,tcp/udp,uaac,UAAC Protocol,3
+146,tcp/udp,iso-tp0,ISO-IP0,3
+147,tcp/udp,iso-ip,ISO-IP,3
+148,tcp/udp,jargon,Jargon,3
+149,tcp/udp,aed-512,AED 512 Emulation Service,3
+150,tcp/udp,sql-net,SQL-NET,3
+151,tcp/udp,hems,HEMS,3
+152,tcp/udp,bftp,Background File Transfer Program,3
+153,tcp/udp,sgmp,SGMP,3
+154,tcp/udp,netsc-prod,NETSC,3
+155,tcp/udp,netsc-dev,NETSC,3
+156,tcp/udp,sqlsrv,SQL Service,3
+157,tcp/udp,knet-cmp,KNET/VM Command/Message Protocol,3
+158,tcp/udp,pcmail-srv,PCMail Server,3
+159,tcp/udp,nss-routing,NSS-Routing,3
+160,tcp/udp,sgmp-traps,SGMP-TRAPS,3
+161,tcp/udp,snmp,SNMP,3
+162,tcp/udp,snmptrap,SNMPTRAP,3
+163,tcp/udp,cmip-man,CMIP/TCP Manager,3
+164,tcp,cmip-agent,CMIP/TCP Agent,3
+164,udp,smip-agent,CMIP/TCP Agent,3
+165,tcp/udp,xns-courier,Xerox,3
+166,tcp/udp,s-net,Sirius Systems,3
+167,tcp/udp,namp,NAMP,3
+168,tcp/udp,rsvd,RSVD,3
+169,tcp/udp,send,SEND,3
+170,tcp/udp,print-srv,Network PostScript,3
+171,tcp/udp,multiplex,Network Innovations Multiplex,3
+172,tcp/udp,cl/1,Network Innovations CL/1,3
+173,tcp/udp,xyplex-mux,Xyplex,3
+174,tcp/udp,mailq,MAILQ,3
+175,tcp/udp,vmnet,VMNET,3
+176,tcp/udp,genrad-mux,GENRAD-MUX,3
+177,tcp/udp,xdmcp,X Display Manager Control Protocol,3
+178,tcp/udp,nextstep,NextStep Window Server,3
+179,tcp/udp,bgp,Border Gateway Protocol,3
+180,tcp/udp,ris,Intergraph,3
+181,tcp/udp,unify,Unify,3
+182,tcp/udp,audit,Unisys Audit SITP,3
+183,tcp/udp,ocbinder,OCBinder,3
+184,tcp/udp,ocserver,OCServer,3
+185,tcp/udp,remote-kis,Remote-KIS,3
+186,tcp/udp,kis,KIS Protocol,3
+187,tcp/udp,aci,Application Communication Interface,3
+188,tcp/udp,mumps,Plus Five’s MUMPS,3
+189,tcp/udp,qft,Queued File Transport,3
+190,tcp/udp,gacp,Gateway Access Control Protocol,3
+191,tcp/udp,prospero,Prospero Directory Service,3
+192,tcp/udp,osu-nms,OSU Network Monitoring System,3
+193,tcp/udp,srmp,Spider Remote Monitoring Protocol,3
+194,tcp/udp,irc,Internet Relay Chat Protocol,3
+195,tcp/udp,dn6-nlm-aud,DNSIX Network Level Module Audit,3
+196,tcp/udp,dn6-smm-red,DNSIX Session Mgt Module Audit Redir,3
+197,tcp/udp,dls,Directory Location Service,3
+198,tcp/udp,dls-mon,Directory Location Service Monitor,3
+199,tcp/udp,smux,SMUX,3
+201,tcp/udp,at-rtmp,AppleTalk Routing Maintenance,3
+202,tcp/udp,at-nbp,AppleTalk Name Binding,3
+203,tcp/udp,at-3,AppleTalk Unused,3
+204,tcp/udp,at-echo,AppleTalk Echo,3
+205,tcp/udp,at-5,AppleTalk Unused,3
+206,tcp/udp,at-zis,AppleTalk Zone Information,3
+207,tcp/udp,at-7,AppleTalk Unused,3
+208,tcp/udp,at-8,AppleTalk Unused,3
+209,tcp/udp,qmtp,The Quick Mail Transfer Protocol,3
+210,tcp/udp,z39.50,ANSI Z39.50,3
+211,tcp/udp,914c/g,Texas Instruments 914C/G Terminal,3
+212,tcp/udp,anet,ATEXSSTR,3
+213,tcp/udp,ipx,IPX,3
+214,tcp/udp,vmpwscs,VM PWSCS,3
+215,tcp/udp,softpc,Insignia Solutions,3
+216,tcp/udp,CAIlic,Computer Associates Int’l License Server,3
+217,tcp/udp,dbase,dBASE Unix,3
+218,tcp/udp,mpp,Netix Message Posting Protocol,3
+219,tcp/udp,uarps,Unisys ARPs,3
+220,tcp/udp,imap3,Interactive Mail Access Protocol v3,3
+221,tcp/udp,fln-spx,Berkeley rlogind with SPX auth,3
+222,tcp/udp,rsh-spx,Berkeley rshd with SPX auth,3
+223,tcp/udp,cdc,Certificate Distribution Center,3
+224-241,tcp/udp,#,Reserved,3
+242,tcp/udp,direct,Direct,3
+243,tcp/udp,sur-meas,Survey Measurement,3
+244,tcp/udp,dayna,Dayna,3
+245,tcp/udp,link,LINK,3
+246,tcp/udp,dsp3270,Display Systems Protocol,3
+247,tcp/udp,subntbcst_tftp,SUBNTBCST_TFTP,3
+248,tcp/udp,bhfhs,bhfhs,3
+249-255,tcp/udp,#,Reserved,3
+256,tcp/udp,rap,RAP,3
+257,tcp/udp,set,Secure Electronic Transaction,3
+258,tcp/udp,yak-chat,Yak Winsock Personal Chat,3
+259,tcp/udp,esro-gen,Efficient Short Remote Operations,3
+260,tcp/udp,openport,Openport,3
+261,tcp/udp,nsiiops,IIOP Name Service over TLS/SSL,3
+262,tcp/udp,arcisdms,Arcisdms,3
+263,tcp/udp,hdap,HDAP,3
+264-279,tcp/udp,#,Unassigned,3
+280,tcp/udp,http-mgmt,http-mgmt,3
+281,tcp/udp,personal-link,Personal Link,3
+282,tcp/udp,cableport-ax,Cable Port A/X,3
+283-308,tcp/udp,#,Unassigned,3
+309,tcp/udp,entrusttime,EntrustTime,3
+310,tcp/udp,bhmds,bhmds,3
+311,tcp/udp,asip-webadmin,AppleShare IP WebAdmin,3
+312,tcp/udp,vslmp,VSLMP,3
+313,tcp/udp,magenta-logic,Magenta Logic,3
+314,tcp/udp,opalis-robot,Opalis Robot,3
+315,tcp/udp,dpsi,DPSI,3
+316,tcp/udp,decauth,decAuth,3
+317,tcp/udp,zannet,Zannet,3
+318-343,tcp/udp,#,Unassigned,3
+344,tcp/udp,pdap,Prospero Data Access Protocol,3
+345,tcp/udp,pawserv,Perf Analysis Workbench,3
+346,tcp/udp,zserv,Zebra server,3
+347,tcp/udp,fatserv,Fatmen Server,3
+348,tcp/udp,csi-sgwp,Cabletron Management Protocol,3
+349,tcp/udp,mftp,mftp,3
+350,tcp/udp,matip-type-a,MATIP Type A,3
+351,udp,matip-type-b,MATIP Type B,3
+351,tcp,bhoetty,bhoetty (added 5/21/97),3
+351,udp,bhoetty,bhoetty,3
+352,tcp,dtag-ste-sb,DTAG (assigned long ago),3
+352,udp,dtag-ste-sb,DTAG,3
+352,tcp,bhoedap4,bhoedap4 (added 5/21/97),3
+352,udp,bhoedap4,bhoedap4,3
+353,tcp/udp,ndsauth,NDSAUTH,3
+354,tcp/udp,bh611,bh611,3
+355,tcp/udp,datex-asn,DATEX-ASN,3
+356,tcp/udp,cloanto-net-1,Cloanto Net 1,3
+357,tcp/udp,bhevent,bhevent,3
+358,tcp/udp,shrinkwrap,Shrinkwrap,3
+359,tcp/udp,tenebris_nts,Tenebris Network Trace Service,3
+360,tcp/udp,scoi2odialog,scoi2odialog,3
+361,tcp/udp,semantix,Semantix,3
+362,tcp/udp,srssend,SRS Send,3
+363,tcp/udp,rsvp_tunnel,RSVP Tunnel,3
+364,tcp/udp,aurora-cmgr,Aurora CMGR,3
+365,tcp/udp,dtk,DTK,3
+366,tcp/udp,odmr,ODMR,3
+367,tcp/udp,mortgageware,MortgageWare,3
+368,tcp/udp,qbikgdp,QbikGDP,3
+369-370,tcp/udp,#,Unassigned,3
+371,tcp,clearcase,,3
+371,udp,clearcase,Clearcase,3
+372,tcp/udp,ulistproc,ListProcessor,3
+373,tcp/udp,legent-1,Legent Corporation,3
+374,tcp/udp,legent-2,Legent Corporation,3
+375,tcp/udp,hassle,Hassle,3
+376,tcp/udp,nip,Amiga Envoy Network Inquiry Proto,3
+377,tcp/udp,tnETOS,NEC Corporation,3
+378,tcp/udp,dsETOS,NEC Corporation,3
+379,tcp/udp,is99c,TIA/EIA/IS-99 modem client,3
+380,tcp/udp,is99s,TIA/EIA/IS-99 modem server,3
+381,tcp/udp,hp-collector,hp performance data collector,3
+382,tcp/udp,hp-managed-node,hp performance data managed node,3
+383,tcp/udp,hp-alarm-mgr,hp performance data alarm manager,3
+384,tcp/udp,arns,A Remote Network Server System,3
+385,tcp/udp,ibm-app,IBM Application,3
+386,tcp/udp,asa,ASA Message Router Object Def.,3
+387,tcp/udp,aurp,Appletalk Update-Based Routing Pro.,3
+388,tcp/udp,unidata-ldm,Unidata LDM Version 4,3
+389,tcp/udp,ldap,Lightweight Directory Access Protocol,3
+390,tcp/udp,uis,UIS,3
+391,tcp/udp,synotics-relay,SynOptics SNMP Relay Port,3
+392,tcp/udp,synotics-broker,SynOptics Port Broker Port,3
+393,tcp/udp,dis,Data Interpretation System,3
+394,tcp/udp,embl-ndt,EMBL Nucleic Data Transfer,3
+395,tcp/udp,netcp,NETscout Control Protocol,3
+396,tcp/udp,netware-ip,Novell Netware over IP,3
+397,tcp/udp,mptn,Multi Protocol Trans. Net.,3
+398,tcp/udp,kryptolan,Kryptolan,3
+399,tcp/udp,iso-tsap-c2,ISO Transport Class 2 Non-Control over TCP,3
+400,tcp/udp,work-sol,Workstation Solutions,3
+401,tcp/udp,ups,Uninterruptible Power Supply,3
+402,tcp/udp,genie,Genie Protocol,3
+403,tcp/udp,decap,decap,3
+404,tcp/udp,nced,nced,3
+405,tcp/udp,ncld,ncld,3
+406,tcp/udp,imsp,Interactive Mail Support Protocol,3
+407,tcp/udp,timbuktu,Timbuktu,3
+408,tcp/udp,prm-sm,Prospero Resource Manager Sys. Man.,3
+409,tcp/udp,prm-nm,Prospero Resource Manager Node Man.,3
+410,tcp/udp,decladebug,DECLadebug Remote Debug Protocol,3
+411,tcp/udp,rmt,Remote MT Protocol,3
+412,tcp/udp,synoptics-trap,Trap Convention Port,3
+413,tcp/udp,smsp,SMSP,3
+414,tcp/udp,infoseek,InfoSeek,3
+415,tcp/udp,bnet,BNet,3
+416,tcp/udp,silverplatter,Silverplatter,3
+417,tcp/udp,onmux,Onmux,3
+418,tcp/udp,hyper-g,Hyper-G,3
+419,tcp/udp,ariel1,Ariel,3
+420,tcp/udp,smpte,SMPTE,3
+421,tcp/udp,ariel2,Ariel,3
+422,tcp/udp,ariel3,Ariel,3
+423,tcp/udp,opc-job-start,IBM Operations Planning and Control Start,3
+424,tcp/udp,opc-job-track,IBM Operations Planning and Control Track,3
+425,tcp/udp,icad-el,ICAD,3
+426,tcp/udp,smartsdp,smartsdp,3
+427,tcp/udp,svrloc,Server Location,3
+428,tcp/udp,ocs_cmu,OCS_CMU,3
+429,tcp/udp,ocs_amu,OCS_AMU,3
+430,tcp/udp,utmpsd,UTMPSD,3
+431,tcp/udp,utmpcd,UTMPCD,3
+432,tcp/udp,iasd,IASD,3
+433,tcp/udp,nnsp,NNSP,3
+434,tcp/udp,mobileip-agent,MobileIP-Agent,3
+435,tcp/udp,mobilip-mn,MobilIP-MN,3
+436,tcp/udp,dna-cml,DNA-CML,3
+437,tcp/udp,comscm,comscm,3
+438,tcp/udp,dsfgw,dsfgw,3
+439,tcp,dasp,dasp Thomas Obermair,3
+439,udp,dasp,dasp tommy@inlab.m.eunet.de,3
+440,tcp/udp,sgcp,sgcp,3
+441,tcp/udp,decvms-sysmgt,decvms-sysmgt,3
+442,tcp/udp,cvc_hostd,cvc_hostd,3
+443,tcp/udp,https,http protocol over TLS/SSL,1
+444,tcp/udp,snpp,Simple Network Paging Protocol,3
+445,tcp/udp,microsoft-ds,Microsoft-DS,3
+446,tcp/udp,ddm-rdb,DDM-RDB,3
+447,tcp/udp,ddm-dfm,DDM-RFM,3
+448,tcp/udp,ddm-byte,DDM-BYTE,3
+449,tcp/udp,as-servermap,AS Server Mapper,3
+450,tcp/udp,tserver,TServer,3
+451,tcp/udp,sfs-smp-net,Cray Network Semaphore server,3
+452,tcp/udp,sfs-config,Cray SFS config server,3
+453,tcp/udp,creativeserver,CreativeServer,3
+454,tcp/udp,contentserver,ContentServer,3
+455,tcp/udp,creativepartnr,CreativePartnr,3
+456,tcp,macon-tcp,macon-tcp,3
+456,udp,macon-udp,macon-udp,3
+457,tcp/udp,scohelp,scohelp,3
+458,tcp/udp,appleqtc,apple quick time,3
+459,tcp/udp,ampr-rcmd,ampr-rcmd,3
+460,tcp/udp,skronk,skronk,3
+461,tcp/udp,datasurfsrv,DataRampSrv,3
+462,tcp/udp,datasurfsrvsec,DataRampSrvSec,3
+463,tcp/udp,alpes,alpes,3
+464,tcp/udp,kpasswd,kpasswd,3
+465,tcp/udp,smtps,smtp protocol over TLS/SSL (was ssmtp),3
+466,tcp/udp,digital-vrc,digital-vrc,3
+467,tcp/udp,mylex-mapd,mylex-mapd,3
+468,tcp/udp,photuris,proturis,3
+469,tcp/udp,rcp,Radio Control Protocol,3
+470,tcp/udp,scx-proxy,scx-proxy,3
+471,tcp/udp,mondex,Mondex,3
+472,tcp/udp,ljk-login,ljk-login,3
+473,tcp/udp,hybrid-pop,hybrid-pop,3
+474,tcp,tn-tl-w1,tn-tl-w1,3
+474,udp,tn-tl-w2,tn-tl-w2,3
+475,tcp/udp,tcpnethaspsrv,tcpnethaspsrv,3
+476,tcp/udp,tn-tl-fd1,tn-tl-fd1,3
+477,tcp/udp,ss7ns,ss7ns,3
+478,tcp/udp,spsc,spsc,3
+479,tcp/udp,iafserver,iafserver,3
+480,tcp/udp,iafdbase,iafdbase,3
+481,tcp/udp,ph,Ph service,3
+482,tcp/udp,bgs-nsi,bgs-nsi,3
+483,tcp/udp,ulpnet,ulpnet,3
+484,tcp/udp,integra-sme,Integra Software Management Environment,3
+485,tcp/udp,powerburst,Air Soft Power Burst,3
+486,tcp/udp,avian,avian,3
+487,tcp/udp,saft,saft Simple Asynchronous File Transfer,3
+488,tcp/udp,gss-http,gss-http,3
+489,tcp/udp,nest-protocol,nest-protocol,3
+490,tcp/udp,micom-pfs,micom-pfs,3
+491,tcp/udp,go-login,go-login,3
+492,tcp/udp,ticf-1,Transport Independent Convergence for FNA,3
+493,tcp/udp,ticf-2,Transport Independent Convergence for FNA,3
+494,tcp/udp,pov-ray,POV-Ray,3
+495,tcp/udp,intecourier,intecourier,3
+496,tcp/udp,pim-rp-disc,PIM-RP-DISC,3
+497,tcp/udp,dantz,dantz,3
+498,tcp/udp,siam,siam,3
+499,tcp/udp,iso-ill,ISO ILL Protocol,3
+501,tcp/udp,stmf,STMF,3
+502,tcp/udp,asa-appl-proto,asa-appl-proto,3
+503,tcp/udp,intrinsa,Intrinsa,3
+504,tcp/udp,citadel,citadel,3
+505,tcp/udp,mailbox-lm,mailbox-lm,3
+506,tcp/udp,ohimsrv,ohimsrv,3
+507,tcp/udp,crs,crs,3
+508,tcp/udp,xvttp,xvttp,3
+509,tcp/udp,snare,snare,3
+510,tcp/udp,fcp,FirstClass Protocol,3
+511,tcp/udp,mynet,mynet-as,3
+512,tcp,exec,remote process execution;,3
+512,udp,comsat,,3
+512,udp,biff,used by mail system to notify users,3
+513,tcp,login,remote login a la telnet;,5
+513,udp,who,maintains data bases showing who’s,5
+514,tcp,shell,cmd,3
+514,udp,syslog,,3
+515,tcp/udp,printer,spooler,3
+516,tcp/udp,videotex,videotex,3
+517,tcp/udp,talk,like tenex link, but across,3
+518,tcp/udp,ntalk,,3
+519,tcp/udp,utime,unixtime,3
+520,tcp,efs,extended file name server,3
+520,udp,router,local routing process (on site);,5
+521,tcp/udp,ripng,ripng,3
+522,tcp/udp,ulp,ULP,3
+523,tcp/udp,ibm-db2,IBM-DB2,3
+524,tcp/udp,ncp,NCP,3
+525,tcp/udp,timed,timeserver,3
+526,tcp/udp,tempo,newdate,3
+527,tcp/udp,stx,Stock IXChange,3
+528,tcp/udp,custix,Customer IXChange,3
+529,tcp/udp,irc-serv,IRC-SERV,3
+530,tcp/udp,courier,rpc,3
+531,tcp/udp,conference,chat,3
+532,tcp/udp,netnews,readnews,3
+533,tcp/udp,netwall,for emergency broadcasts,3
+534,tcp/udp,mm-admin,MegaMedia Admin,3
+535,tcp/udp,iiop,iiop,3
+536,tcp/udp,opalis-rdv,opalis-rdv,3
+537,tcp/udp,nmsp,Networked Media Streaming Protocol,3
+538,tcp/udp,gdomap,gdomap,3
+539,tcp/udp,apertus-ldp,Apertus Technologies Load Determination,3
+540,tcp/udp,uucp,uucpd,3
+541,tcp/udp,uucp-rlogin,uucp-rlogin,3
+542,tcp/udp,commerce,commerce,3
+543,tcp/udp,klogin,,3
+544,tcp/udp,kshell,krcmd,3
+545,tcp/udp,appleqtcsrvr,appleqtcsrvr,3
+546,tcp/udp,dhcpv6-client,DHCPv6 Client,3
+547,tcp/udp,dhcpv6-server,DHCPv6 Server,3
+548,tcp/udp,afpovertcp,AFP over TCP,3
+549,tcp/udp,idfp,IDFP,3
+550,tcp/udp,new-rwho,new-who,3
+551,tcp/udp,cybercash,cybercash,3
+552,tcp/udp,deviceshare,deviceshare,3
+553,tcp/udp,pirp,pirp,3
+554,tcp/udp,rtsp,Real Time Stream Control Protocol,3
+555,tcp/udp,dsf,,3
+556,tcp/udp,remotefs,rfs server,3
+557,tcp/udp,openvms-sysipc,openvms-sysipc,3
+558,tcp/udp,sdnskmp,SDNSKMP,3
+559,tcp/udp,teedtap,TEEDTAP,3
+560,tcp/udp,rmonitor,rmonitord,3
+561,tcp/udp,monitor,,3
+562,tcp/udp,chshell,chcmd,3
+563,tcp/udp,nntps,nntp protocol over TLS/SSL (was snntp),3
+564,tcp/udp,9pfs,plan 9 file service,3
+565,tcp/udp,whoami,whoami,3
+566,tcp/udp,streettalk,streettalk,3
+567,tcp/udp,banyan-rpc,banyan-rpc,3
+568,tcp/udp,ms-shuttle,microsoft shuttle,3
+569,tcp/udp,ms-rome,microsoft rome,3
+570,tcp/udp,meter,demon,3
+571,tcp/udp,meter,udemon,3
+572,tcp/udp,sonar,sonar,3
+573,tcp/udp,banyan-vip,banyan-vip,3
+574,tcp/udp,ftp-agent,FTP Software Agent System,3
+575,tcp/udp,vemmi,VEMMI,3
+576,tcp/udp,ipcd,ipcd,3
+577,tcp/udp,vnas,vnas,3
+578,tcp/udp,ipdd,ipdd,3
+579,tcp/udp,decbsrv,decbsrv,3
+580,tcp/udp,sntp-heartbeat,SNTP HEARTBEAT,3
+581,tcp/udp,bdp,Bundle Discovery Protocol,3
+582,tcp/udp,scc-security,SCC Security,3
+583,tcp/udp,philips-vc,Philips Video-Conferencing,3
+584,tcp/udp,keyserver,Key Server,3
+585,tcp/udp,imap4-ssl,IMAP4+SSL (use 993 instead),3
+586,tcp/udp,password-chg,Password Change,3
+587,tcp/udp,submission,Submission,3
+588,tcp/udp,cal,CAL,3
+589,tcp/udp,eyelink,EyeLink,3
+590,tcp/udp,tns-cml,TNS CML,3
+591,tcp/udp,http-alt,FileMaker, Inc. – HTTP Alternate (see Port 80),3
+592,tcp/udp,eudora-set,Eudora Set,3
+593,tcp/udp,http-rpc-epmap,HTTP RPC Ep Map,3
+594,tcp/udp,tpip,TPIP,3
+595,tcp/udp,cab-protocol,CAB Protocol,3
+596,tcp/udp,smsd,SMSD,3
+597,tcp/udp,ptcnameservice,PTC Name Service,3
+598,tcp/udp,sco-websrvrmg3,SCO Web Server Manager 3,3
+599,tcp/udp,acp,Aeolon Core Protocol,3
+600,tcp/udp,ipcserver,Sun IPC server,3
+606,tcp/udp,urm,Cray Unified Resource Manager,3
+607,tcp/udp,nqs,nqs,3
+608,tcp/udp,sift-uft,Sender-Initiated/Unsolicited File Transfer,3
+609,tcp/udp,npmp-trap,npmp-trap,3
+610,tcp/udp,npmp-local,npmp-local,3
+611,tcp/udp,npmp-gui,npmp-gui,3
+612,tcp/udp,hmmp-ind,HMMP Indication,3
+613,tcp/udp,hmmp-op,HMMP Operation,3
+614,tcp/udp,sshell,SSLshell,3
+615,tcp/udp,sco-inetmgr,Internet Configuration Manager,3
+616,tcp/udp,sco-sysmgr,SCO System Administration Server,3
+617,tcp/udp,sco-dtmgr,SCO Desktop Administration Server,3
+618,tcp/udp,dei-icda,DEI-ICDA,3
+619,tcp/udp,digital-evm,Digital EVM,3
+620,tcp/udp,sco-websrvrmgr,SCO WebServer Manager,3
+621,tcp/udp,escp-ip,ESCP,3
+622,tcp/udp,collaborator,Collaborator,3
+623,tcp/udp,aux_bus_shunt,Aux Bus Shunt,3
+624,tcp/udp,cryptoadmin,Crypto Admin,3
+625,tcp/udp,dec_dlm,DEC DLM,3
+626,tcp/udp,asia,ASIA,3
+627,tcp/udp,cks-tivioli,CKS & TIVIOLI,3
+628,tcp/udp,qmqp,QMQP,3
+629,tcp/udp,3com-amp3,3Com AMP3,3
+630-632,tcp/udp,#,Unassigned,3
+633,tcp/udp,servstat,Service Status update (Sterling Software),3
+634,tcp/udp,ginad,ginad,3
+635,tcp/udp,rlzdbase,RLZ DBase,3
+636,tcp/udp,ldaps,ldap protocol over TLS/SSL (was sldap),3
+637,tcp/udp,lanserver,lanserver,3
+638-665,tcp/udp,#,Unassigned,3
+666,udp,mdqs,,3
+666,tcp/udp,doom,doom Id Software,3
+667,tcp/udp,disclose,campaign contribution disclosures – SDR Technologies,3
+668,tcp/udp,mecomm,MeComm,3
+669,tcp/udp,meregister,MeRegister,3
+670,tcp/udp,vacdsm-sws,VACDSM-SWS,3
+671,tcp/udp,vacdsm-app,VACDSM-APP,3
+672,tcp/udp,vpps-qua,VPPS-QUA,3
+673,tcp/udp,cimplex,CIMPLEX,3
+674,tcp/udp,acap,ACAP,3
+675,tcp/udp,dctp,DCTP,3
+676,tcp/udp,vpps-via,VPPS Via,3
+677-703,tcp/udp,#,Unassigned,3
+704,tcp/udp,elcsd,errlog copy/server daemon,3
+705,tcp/udp,agentx,AgentX,3
+706,tcp/udp,#,Unassigned,3
+707,tcp/udp,borland-dsj,Borland DSJ,3
+708,tcp/udp,#,Unassigned,3
+709,tcp/udp,entrust-kmsh,Entrust Key Management Service Handler,3
+710,tcp/udp,entrust-ash,Entrust Administration Service Handler,3
+711,tcp/udp,cisco-tdp,Cisco TDP,3
+712-728,tcp/udp,#,Unassigned,3
+729,tcp/udp,netviewdm1,IBM NetView DM/6000 Server/Client,3
+730,tcp/udp,netviewdm2,IBM NetView DM/6000 send/tcp,3
+731,tcp/udp,netviewdm3,IBM NetView DM/6000 receive/tcp,3
+741,tcp/udp,netgw,netGW,3
+742,tcp/udp,netrcs,Network based Rev. Cont. Sys.,3
+744,tcp/udp,flexlm,Flexible License Manager,3
+747,tcp/udp,fujitsu-dev,Fujitsu Device Control,3
+748,tcp/udp,ris-cm,Russell Info Sci Calendar Manager,3
+749,tcp/udp,kerberos-adm,kerberos administration,3
+750,tcp,rfile,,3
+750,udp,loadav,,3
+750,udp,kerberos-iv,kerberos version iv,3
+751,tcp/udp,pump,,3
+752,tcp/udp,qrh,,3
+753,tcp/udp,rrh,,3
+754,tcp/udp,tell,send,3
+758,tcp/udp,nlogin,,3
+759,tcp/udp,con,,3
+760,tcp/udp,ns,,3
+761,tcp/udp,rxe,,3
+762,tcp/udp,quotad,,3
+763,tcp/udp,cycleserv,,3
+764,tcp/udp,omserv,,3
+765,tcp/udp,webster,,3
+767,tcp/udp,phonebook,phone,3
+769,tcp/udp,vid,,3
+770,tcp/udp,cadlock,,3
+771,tcp/udp,rtip,,3
+772,tcp/udp,cycleserv2,,3
+773,tcp,submit,,3
+773,udp,notify,,3
+774,tcp,rpasswd,,3
+774,udp,acmaint_dbd,,3
+775,tcp,entomb,,3
+775,udp,acmaint_transd,,3
+776,tcp/udp,wpages,,3
+780,tcp/udp,wpgs,,3
+786,tcp/udp,concert,Concert,3
+787,tcp/udp,qsc,QSC,3
+788-799,tcp/udp,#,Unassigned,3
+800,tcp/udp,mdbs_daemon,,3
+801,tcp/udp,device,,3
+802-828,tcp/udp,#,Unassigned,3
+829,tcp/udp,pkix-3-ca-ra,PKIX-3 CA/RA,3
+830-872,tcp/udp,#,Unassigned,3
+873,tcp/udp,rsync,rsync,3
+875-885,tcp/udp,#,Unassigned,3
+886,tcp/udp,iclcnet-locate,ICL coNETion locate server,3
+887,tcp/udp,iclcnet_svinfo,ICL coNETion server info,3
+888,udp,accessbuilder,AccessBuilder,3
+888,tcp,cddbp,CD Database Protocol,3
+889-899,tcp/udp,#,Unassigned,3
+900,tcp/udp,omginitialrefs,OMG Initial Refs,3
+889-910,tcp/udp,#,Unassigned,3
+911,tcp/udp,xact-backup,xact-backup,3
+912-988,tcp/udp,#,Unassigned,3
+989,tcp/udp,ftps-data,ftp protocol, data, over TLS/SSL,3
+990,tcp/udp,ftps,ftp protocol, control, over TLS/SSL,3
+991,tcp/udp,nas,Netnews Administration System,3
+992,tcp/udp,telnets,telnet protocol over TLS/SSL,3
+993,tcp/udp,imaps,imap4 protocol over TLS/SSL,3
+994,tcp/udp,ircs,irc protocol over TLS/SSL,3
+995,tcp/udp,pop3s,pop3 protocol over TLS/SSL (was spop3),3
+996,tcp/udp,vsinet,vsinet,3
+997,tcp/udp,maitrd,,3
+998,tcp,busboy,,3
+998,udp,puparp,,3
+999,tcp,garcon,,3
+999,udp,applix,Applix ac,3
+999,tcp/udp,puprouter,,3
+1000,tcp,cadlock,,3
+1000,udp,ock,,3
+1001-1009,tcp/udp,#,Unassigned,3
+1010,tcp/udp,surf,surf,3
+1011-1022,tcp/udp,#,Reserved,3
+1023,tcp/udp,#,Reserved,3
+1025,tcp/udp,blackjack,network blackjack,3
+1030,tcp/udp,iad1,BBN IAD,3
+1031,tcp/udp,iad2,BBN IAD,3
+1032,tcp/udp,iad3,BBN IAD,3
+1047,tcp/udp,neod1,Sun’s NEO Object Request Broker,3
+1048,tcp/udp,neod2,Sun’s NEO Object Request Broker,3
+1058,tcp/udp,nim,nim,3
+1059,tcp/udp,nimreg,nimreg,3
+1067,tcp/udp,instl_boots,Installation Bootstrap Proto. Serv.,3
+1068,tcp/udp,instl_bootc,Installation Bootstrap Proto. Cli.,3
+1080,tcp/udp,socks,Socks,5
+1083,tcp/udp,ansoft-lm-1,Anasoft License Manager,3
+1084,tcp/udp,ansoft-lm-2,Anasoft License Manager,3
+1099,tcp/udp,#,RMI???????? – register by SUN?,3
+1110,tcp,nfsd-status,Cluster status info,3
+1110,udp,nfsd-keepalive,Client status info,3
+1111,tcp/udp,lmsocialserver,LM Social Server,3
+1123,tcp/udp,murray,Murray,3
+1155,tcp/udp,nfa,Network File Access,3
+1180,tcp/udp,mc-client,Millicent Client Proxy,3
+1212,tcp/udp,lupa,lupa,3
+1222,tcp/udp,nerv,SNI R&D network,3
+1223-1233,tcp/udp,#,Unassigned,3
+1234,tcp/udp,search-agent,Infoseek Search Agent,3
+1235-1238,tcp/udp,#,Unassigned,3
+1239,tcp/udp,nmsd,NMSD,3
+1240-1247,tcp/udp,#,Unassigned,3
+1248,tcp/udp,hermes,,3
+1249-1299,tcp/udp,#,Unassigned,3
+1300,tcp/udp,h323hostcallsc,H323 Host Call Secure,3
+1301-1312,tcp/udp,#,Unassigned,3
+1313,tcp,bmc_patroldb,BMC_PATROLDB,3
+1313,udp,bmc-patroldb,BMC_PATROLDB,3
+1314,tcp/udp,pdps,Photoscript Distributed Printing System,3
+1315-1344,tcp/udp,#,Unassigned,3
+1345,tcp/udp,vpjp,VPJP,3
+1346,tcp/udp,alta-ana-lm,Alta Analytics License Manager,3
+1347,tcp/udp,bbn-mmc,multi media conferencing,3
+1348,tcp/udp,bbn-mmx,multi media conferencing,3
+1349,tcp/udp,sbook,Registration Network Protocol,3
+1350,tcp/udp,editbench,Registration Network Protocol,3
+1351,tcp/udp,equationbuilder,Digital Tool Works (MIT),3
+1352,tcp/udp,lotusnote,Lotus Note,3
+1353,tcp/udp,relief,Relief Consulting,3
+1354,tcp/udp,rightbrain,RightBrain Software,3
+1355,tcp/udp,intuitive-edge,Intuitive Edge,3
+1356,tcp/udp,cuillamartin,CuillaMartin Company,3
+1357,tcp/udp,pegboard,Electronic PegBoard,3
+1358,tcp/udp,connlcli,CONNLCLI,3
+1359,tcp/udp,ftsrv,FTSRV,3
+1360,tcp/udp,mimer,MIMER,3
+1361,tcp/udp,linx,LinX,3
+1362,tcp/udp,timeflies,TimeFlies,3
+1363,tcp/udp,ndm-requester,Network DataMover Requester,3
+1364,tcp/udp,ndm-server,Network DataMover Server,3
+1365,tcp/udp,adapt-sna,Network Software Associates,3
+1366,tcp/udp,netware-csp,Novell NetWare Comm Service Platform,3
+1367,tcp/udp,dcs,DCS,3
+1368,tcp/udp,screencast,ScreenCast,3
+1369,tcp/udp,gv-us,GlobalView to Unix Shell,3
+1370,tcp/udp,us-gv,Unix Shell to GlobalView,3
+1371,tcp/udp,fc-cli,Fujitsu Config Protocol,3
+1372,tcp/udp,fc-ser,Fujitsu Config Protocol,3
+1373,tcp/udp,chromagrafx,Chromagrafx,3
+1374,tcp/udp,molly,EPI Software Systems,3
+1375,tcp/udp,bytex,Bytex,3
+1376,tcp/udp,ibm-pps,IBM Person to Person Software,3
+1377,tcp/udp,cichlid,Cichlid License Manager,3
+1378,tcp/udp,elan,Elan License Manager,3
+1379,tcp/udp,dbreporter,Integrity Solutions,3
+1380,tcp/udp,telesis-licman,Telesis Network License Manager,3
+1381,tcp/udp,apple-licman,Apple Network License Manager,3
+1382,tcp/udp,udt_os,,3
+,3
+1383,tcp/udp,gwha,GW Hannaway Network License Manager,3
+1384,tcp/udp,os-licman,Objective Solutions License Manager,3
+1385,tcp/udp,atex_elmd,Atex Publishing License Manager,3
+1386,tcp/udp,checksum,CheckSum License Manager,3
+1387,tcp/udp,cadsi-lm,Computer Aided Design Software Inc LM,3
+1388,tcp/udp,objective-dbc,Objective Solutions DataBase Cache,3
+1389,tcp/udp,iclpv-dm,Document Manager,3
+1390,tcp/udp,iclpv-sc,Storage Controller,3
+1391,tcp/udp,iclpv-sas,Storage Access Server,3
+1392,tcp/udp,iclpv-pm,Print Manager,3
+1393,tcp/udp,iclpv-nls,Network Log Server,3
+1394,tcp/udp,iclpv-nlc,Network Log Client,3
+1395,tcp/udp,iclpv-wsm,PC Workstation Manager software,3
+1396,tcp/udp,dvl-activemail,DVL Active Mail,3
+1397,tcp/udp,audio-activmail,Audio Active Mail,3
+1398,tcp/udp,video-activmail,Video Active Mail,3
+1399,tcp/udp,cadkey-licman,Cadkey License Manager,3
+1400,tcp/udp,cadkey-tablet,Cadkey Tablet Daemon,3
+1401,tcp/udp,goldleaf-licman,Goldleaf License Manager,3
+1402,tcp/udp,prm-sm-np,Prospero Resource Manager,3
+1403,tcp/udp,prm-nm-np,Prospero Resource Manager,3
+1404,tcp/udp,igi-lm,Infinite Graphics License Manager,3
+1405,tcp/udp,ibm-res,IBM Remote Execution Starter,3
+1406,tcp/udp,netlabs-lm,NetLabs License Manager,3
+1407,tcp/udp,dbsa-lm,DBSA License Manager,3
+1408,tcp/udp,sophia-lm,Sophia License Manager,3
+1409,tcp/udp,here-lm,Here License Manager,3
+1410,tcp/udp,hiq,HiQ License Manager,3
+1411,tcp/udp,af,AudioFile,3
+1412,tcp/udp,innosys,InnoSys,3
+1413,tcp/udp,innosys-acl,Innosys-ACL,3
+1414,tcp/udp,ibm-mqseries,IBM MQSeries,3
+1415,tcp/udp,dbstar,DBStar,3
+1416,tcp/udp,novell-lu6.2,Novell LU6.2,3
+1417,tcp/udp,timbuktu-srv1,Timbuktu Service 1 Port,3
+1418,tcp/udp,timbuktu-srv2,Timbuktu Service 2 Port,3
+1419,tcp/udp,timbuktu-srv3,Timbuktu Service 3 Port,3
+1420,tcp/udp,timbuktu-srv4,Timbuktu Service 4 Port,3
+1421,tcp/udp,gandalf-lm,Gandalf License Manager,3
+1422,tcp/udp,autodesk-lm,Autodesk License Manager,3
+1423,tcp/udp,essbase,Essbase Arbor Software,3
+1424,tcp/udp,hybrid,Hybrid Encryption Protocol,3
+1425,tcp/udp,zion-lm,Zion Software License Manager,3
+1426,tcp/udp,sais,Satellite-data Acquisition System 1,3
+1427,tcp/udp,mloadd,mloadd monitoring tool,3
+1428,tcp/udp,informatik-lm,Informatik License Manager,3
+1429,tcp/udp,nms,Hypercom NMS,3
+1430,tcp/udp,tpdu,Hypercom TPDU,3
+1431,tcp/udp,rgtp,Reverse Gossip Transport,3
+1432,tcp/udp,blueberry-lm,Blueberry Software License Manager,3
+1433,tcp/udp,ms-sql-s,Microsoft-SQL-Server,3
+1434,tcp/udp,ms-sql-m,Microsoft-SQL-Monitor,3
+1435,tcp/udp,ibm-cics,IBM CICS,3
+1436,tcp/udp,saism,Satellite-data Acquisition System 2,3
+1437,tcp/udp,tabula,Tabula,3
+1438,tcp/udp,eicon-server,Eicon Security Agent/Server,3
+1439,tcp/udp,eicon-x25,Eicon X25/SNA Gateway,3
+1440,tcp/udp,eicon-slp,Eicon Service Location Protocol,3
+1441,tcp/udp,cadis-1,Cadis License Management,3
+1442,tcp/udp,cadis-2,Cadis License Management,3
+1443,tcp/udp,ies-lm,Integrated Engineering Software,3
+1444,tcp/udp,marcam-lm,Marcam License Management,3
+1445,tcp/udp,proxima-lm,Proxima License Manager,3
+1446,tcp/udp,ora-lm,Optical Research Associates License Manager,3
+1447,tcp/udp,apri-lm,Applied Parallel Research LM,3
+1448,tcp/udp,oc-lm,OpenConnect License Manager,3
+1449,tcp/udp,peport,PEport,3
+1450,tcp/udp,dwf,Tandem Distributed Workbench Facility,3
+1451,tcp/udp,infoman,IBM Information Management,3
+1452,tcp/udp,gtegsc-lm,GTE Government Systems License Man,3
+1453,tcp/udp,genie-lm,Genie License Manager,3
+1454,tcp/udp,interhdl_elmd,interHDL License Manager,3
+1455,tcp/udp,esl-lm,ESL License Manager,3
+1456,tcp/udp,dca,DCA,3
+1457,tcp/udp,valisys-lm,Valisys License Manager,3
+1458,tcp/udp,nrcabq-lm,Nichols Research Corp.,3
+1459,tcp/udp,proshare1,Proshare Notebook Application,3
+1460,tcp/udp,proshare2,Proshare Notebook Application,3
+1461,tcp/udp,ibm_wrless_lan,IBM Wireless LAN,3
+1462,tcp/udp,world-lm,World License Manager,3
+1463,tcp/udp,nucleus,Nucleus,3
+1464,tcp/udp,msl_lmd,MSL License Manager,3
+1465,tcp,pipes,Pipes Platform,3
+1465,udp,pipes,Pipes Platform mfarlin@peerlogic.com,3
+1466,tcp/udp,oceansoft-lm,Ocean Software License Manager,3
+1467,tcp/udp,csdmbase,CSDMBASE,3
+1468,tcp/udp,csdm,CSDM,3
+1469,tcp/udp,aal-lm,Active Analysis Limited License Manager,3
+1470,tcp/udp,uaiact,Universal Analytics,3
+1471,tcp/udp,csdmbase,csdmbase,3
+1472,tcp/udp,csdm,csdm,3
+1473,tcp/udp,openmath,OpenMath,3
+1474,tcp/udp,telefinder,Telefinder,3
+1475,tcp/udp,taligent-lm,Taligent License Manager,3
+1476,tcp/udp,clvm-cfg,clvm-cfg,3
+1477,tcp/udp,ms-sna-server,ms-sna-server,3
+1478,tcp/udp,ms-sna-base,ms-sna-base,3
+1479,tcp/udp,dberegister,dberegister,3
+1480,tcp/udp,pacerforum,PacerForum,3
+1481,tcp/udp,airs,AIRS,3
+1482,tcp/udp,miteksys-lm,Miteksys License Manager,3
+1483,tcp/udp,afs,AFS License Manager,3
+1484,tcp/udp,confluent,Confluent License Manager,3
+1485,tcp/udp,lansource,LANSource,3
+1486,tcp/udp,nms_topo_serv,nms_topo_serv,3
+1487,tcp/udp,localinfosrvr,LocalInfoSrvr,3
+1488,tcp/udp,docstor,DocStor,3
+1489,tcp/udp,dmdocbroker,dmdocbroker,3
+1490,tcp/udp,insitu-conf,insitu-conf,3
+1491,tcp/udp,anynetgateway,anynetgateway,3
+1492,tcp/udp,stone-design-1,stone-design-1,3
+1493,tcp/udp,netmap_lm,netmap_lm,3
+1494,tcp/udp,ica,ica,3
+1495,tcp/udp,cvc,cvc,3
+1496,tcp/udp,liberty-lm,liberty-lm,3
+1497,tcp/udp,rfx-lm,rfx-lm,3
+1498,tcp/udp,sybase-sqlany,Sybase SQL Any,3
+1499,tcp/udp,fhc,Federico Heinz Consultora,3
+1501,tcp/udp,saiscm,Satellite-data Acquisition System 3,3
+1502,tcp/udp,shivadiscovery,Shiva,3
+1503,tcp/udp,imtc-mcs,Databeam,3
+1504,tcp/udp,evb-elm,EVB Software Engineering License Manager,3
+1505,tcp/udp,funkproxy,Funk Software, Inc.,3
+1506,tcp/udp,utcd,Universal Time daemon (utcd),3
+1507,tcp/udp,symplex,symplex,3
+1508,tcp/udp,diagmond,diagmond,3
+1509,tcp/udp,robcad-lm,Robcad, Ltd. License Manager,3
+1510,tcp/udp,mvx-lm,Midland Valley Exploration Ltd. Lic. Man.,3
+1511,tcp/udp,3l-l1,3l-l1,3
+1512,tcp/udp,wins,Microsoft’s Windows Internet Name Service,3
+1513,tcp/udp,fujitsu-dtc,Fujitsu Systems Business of America, Inc,3
+1514,tcp/udp,fujitsu-dtcns,Fujitsu Systems Business of America, Inc,3
+1515,tcp/udp,ifor-protocol,ifor-protocol,3
+1516,tcp/udp,vpad,Virtual Places Audio data,3
+1517,tcp/udp,vpac,Virtual Places Audio control,3
+1518,tcp/udp,vpvd,Virtual Places Video data,3
+1519,tcp/udp,vpvc,Virtual Places Video control,3
+1520,tcp/udp,atm-zip-office,atm zip office,3
+1521,tcp/udp,ncube-lm,nCube License Manager,3
+1522,tcp/udp,ricardo-lm,Ricardo North America License Manager,3
+1523,tcp/udp,cichild-lm,cichild,3
+1524,tcp/udp,ingreslock,ingres,3
+1525,udp,orasrv,oracle,3
+1525,tcp/udp,prospero-np,Prospero Directory Service non-priv,3
+1526,tcp/udp,pdap-np,Prospero Data Access Prot non-priv,3
+1527,tcp/udp,tlisrv,oracle,3
+1528,tcp/udp,mciautoreg,micautoreg,3
+1529,tcp/udp,coauthor,oracle,3
+1530,tcp/udp,rap-service,rap-service,3
+1531,tcp/udp,rap-listen,rap-listen,3
+1532,tcp/udp,miroconnect,miroconnect,3
+1533,tcp/udp,virtual-places,Virtual Places Software,3
+1534,tcp/udp,micromuse-lm,micromuse-lm,3
+1535,tcp/udp,ampr-info,ampr-info,3
+1536,tcp/udp,ampr-inter,ampr-inter,3
+1537,tcp/udp,sdsc-lm,isi-lm,3
+1538,tcp/udp,3ds-lm,3ds-lm,3
+1539,tcp/udp,intellistor-lm,Intellistor License Manager,3
+1540,tcp/udp,rds,rds,3
+1541,tcp/udp,rds2,rds2,3
+1542,tcp/udp,gridgen-elmd,gridgen-elmd,3
+1543,tcp/udp,simba-cs,simba-cs,3
+1544,tcp/udp,aspeclmd,aspeclmd,3
+1545,tcp/udp,vistium-share,vistium-share,3
+1546,tcp/udp,abbaccuray,abbaccuray,3
+1547,tcp/udp,laplink,laplink,3
+1548,tcp/udp,axon-lm,Axon License Manager,3
+1549,tcp,shivahose,Shiva Hose,3
+1549,udp,shivasound,Shiva Sound,3
+1550,tcp/udp,3m-image-lm,Image Storage license manager 3M Company,3
+1551,tcp/udp,hecmtl-db,HECMTL-DB,3
+1552,tcp/udp,pciarray,pciarray,3
+1553,tcp/udp,sna-cs,sna-cs,3
+1554,tcp/udp,caci-lm,CACI Products Company License Manager,3
+1555,tcp/udp,livelan,livelan,3
+1556,tcp/udp,ashwin,AshWin CI Tecnologies,3
+1557,tcp/udp,arbortext-lm,ArborText License Manager,3
+1558,tcp/udp,xingmpeg,xingmpeg,3
+1559,tcp/udp,web2host,web2host,3
+1560,tcp/udp,asci-val,asci-val,3
+1561,tcp/udp,facilityview,facilityview,3
+1562,tcp/udp,pconnectmgr,pconnectmgr,3
+1563,tcp/udp,cadabra-lm,Cadabra License Manager,3
+1564,tcp/udp,pay-per-view,Pay-Per-View,3
+1565,tcp/udp,winddlb,WinDD,3
+1566,tcp/udp,corelvideo,CORELVIDEO,3
+1567,tcp/udp,jlicelmd,jlicelmd,3
+1568,tcp/udp,tsspmap,tsspmap,3
+1569,tcp/udp,ets,ets,3
+1570,tcp/udp,orbixd,orbixd,3
+1571,tcp/udp,rdb-dbs-disp,Oracle Remote Data Base,3
+1572,tcp/udp,chip-lm,Chipcom License Manager,3
+1573,tcp/udp,itscomm-ns,itscomm-ns,3
+1574,tcp/udp,mvel-lm,mvel-lm,3
+1575,tcp/udp,oraclenames,oraclenames,3
+1576,tcp/udp,moldflow-lm,moldflow-lm,3
+1577,tcp/udp,hypercube-lm,hypercube-lm,3
+1578,tcp/udp,jacobus-lm,Jacobus License Manager,3
+1579,tcp/udp,ioc-sea-lm,ioc-sea-lm,3
+1580,tcp,tn-tl-r1,tn-tl-r1,3
+1580,udp,tn-tl-r2,tn-tl-r2,3
+1581,tcp/udp,mil-2045-47001,MIL-2045-47001,3
+1582,tcp/udp,msims,MSIMS,3
+1583,tcp/udp,simbaexpress,simbaexpress,3
+1584,tcp/udp,tn-tl-fd2,tn-tl-fd2,3
+1585,tcp/udp,intv,intv,3
+1586,tcp/udp,ibm-abtact,ibm-abtact,3
+1587,tcp/udp,pra_elmd,pra_elmd,3
+1588,tcp/udp,triquest-lm,triquest-lm,3
+1589,tcp/udp,vqp,VQP,3
+1590,tcp/udp,gemini-lm,gemini-lm,3
+1591,tcp/udp,ncpm-pm,ncpm-pm,3
+1592,tcp/udp,commonspace,commonspace,3
+1593,tcp/udp,mainsoft-lm,mainsoft-lm,3
+1594,tcp/udp,sixtrak,sixtrak,3
+1595,tcp/udp,radio,radio,3
+1596,tcp,radio-sm,radio-sm,3
+1596,udp,radio-bc,radio-bc,3
+1597,tcp/udp,orbplus-iiop,orbplus-iiop,3
+1598,tcp/udp,picknfs,picknfs,3
+1599,tcp/udp,simbaservices,simbaservices,3
+1600,tcp/udp,issd,,3
+,3
+1601,tcp/udp,aas,aas,3
+1602,tcp/udp,inspect,inspect,3
+1603,tcp/udp,picodbc,pickodbc,3
+1604,tcp/udp,icabrowser,icabrowser,3
+1605,tcp/udp,slp,Salutation Manager (Salutation Protocol),3
+1606,tcp/udp,slm-api,Salutation Manager (SLM-API),3
+1607,tcp/udp,stt,stt,3
+1608,tcp/udp,smart-lm,Smart Corp. License Manager,3
+1609,tcp/udp,isysg-lm,isysg-lm,3
+1610,tcp/udp,taurus-wh,taurus-wh,3
+1611,tcp/udp,ill,Inter Library Loan,3
+1612,tcp/udp,netbill-trans,NetBill Transaction Server,3
+1613,tcp/udp,netbill-keyrep,NetBill Key Repository,3
+1614,tcp/udp,netbill-cred,NetBill Credential Server,3
+1615,tcp/udp,netbill-auth,NetBill Authorization Server,3
+1616,tcp/udp,netbill-prod,NetBill Product Server,3
+1617,tcp/udp,nimrod-agent,Nimrod Inter-Agent Communication,3
+1618,tcp/udp,skytelnet,skytelnet,3
+1619,tcp/udp,xs-openstorage,xs-openstorage,3
+1620,tcp/udp,faxportwinport,faxportwinport,3
+1621,tcp/udp,softdataphone,softdataphone,3
+1622,tcp/udp,ontime,ontime,3
+1623,tcp/udp,jaleosnd,jaleosnd,3
+1624,tcp/udp,udp-sr-port,udp-sr-port,3
+1625,tcp/udp,svs-omagent,svs-omagent,3
+1626-1629,tcp/udp,#,Unassigned,3
+1630,tcp/udp,oraclenet8cman,Oracle Net8 Cman,3
+1631-1635,tcp/udp,#,Unassigned,3
+1636,tcp/udp,cncp,CableNet Control Protocol,3
+1637,tcp/udp,cnap,CableNet Admin Protocol,3
+1638,tcp/udp,cnip,CableNet Info Protocol,3
+1639,tcp/udp,cert-initiator,cert-initiator,3
+1640,tcp/udp,cert-responder,cert-responder,3
+1641,tcp/udp,invision,InVision,3
+1642,tcp/udp,isis-am,isis-am,3
+1643,tcp/udp,isis-ambc,isis-ambc,3
+1644,tcp,saiseh,Satellite-data Acquisition System 4,3
+1645,tcp/udp,datametrics,datametrics,3
+1646,tcp/udp,sa-msg-port,sa-msg-port,3
+1647,tcp/udp,rsap,rsap,3
+1648,tcp/udp,concurrent-lm,concurrent-lm,3
+1649,tcp/udp,inspect,inspect,3
+1650,tcp/udp,nkd,nkd,3
+1651,tcp/udp,shiva_confsrvr,shiva_confsrvr,3
+1652,tcp/udp,xnmp,xnmp,3
+1653,tcp/udp,alphatech-lm,alphatech-lm,3
+1654,tcp/udp,stargatealerts,stargatealerts,3
+1655,tcp/udp,dec-mbadmin,dec-mbadmin,3
+1656,tcp/udp,dec-mbadmin-h,dec-mbadmin-h,3
+1657,tcp/udp,fujitsu-mmpdc,fujitsu-mmpdc,3
+1658,tcp/udp,sixnetudr,sixnetudr,3
+1659,tcp/udp,sg-lm,Silicon Grail License Manager,3
+1660,tcp/udp,skip-mc-gikreq,skip-mc-gikreq,3
+1661,tcp/udp,netview-aix-1,netview-aix-1,3
+1662,tcp/udp,netview-aix-2,netview-aix-2,3
+1663,tcp/udp,netview-aix-3,netview-aix-3,3
+1664,tcp/udp,netview-aix-4,netview-aix-4,3
+1665,tcp/udp,netview-aix-5,netview-aix-5,3
+1666,tcp/udp,netview-aix-6,netview-aix-6,3
+1667,tcp/udp,netview-aix-7,netview-aix-7,3
+1668,tcp/udp,netview-aix-8,netview-aix-8,3
+1669,tcp/udp,netview-aix-9,netview-aix-9,3
+1670,tcp/udp,netview-aix-10,netview-aix-10,3
+1671,tcp/udp,netview-aix-11,netview-aix-11,3
+1672,tcp/udp,netview-aix-12,netview-aix-12,3
+1673,tcp/udp,proshare-mc-1,Intel Proshare Multicast,3
+1674,tcp/udp,proshare-mc-2,Intel Proshare Multicast,3
+1675,tcp/udp,pdp,Pacific Data Products,3
+1676,tcp,netcomm1,netcomm1,3
+1676,udp,netcomm2,netcomm2,3
+1677,tcp/udp,groupwise,groupwise,3
+1678,tcp/udp,prolink,prolink,3
+1679,tcp/udp,darcorp-lm,darcorp-lm,3
+1680,tcp/udp,microcom-sbp,microcom-sbp,3
+1681,tcp/udp,sd-elmd,sd-elmd,3
+1682,tcp/udp,lanyon-lantern,lanyon-lantern,3
+1683,tcp/udp,ncpm-hip,ncpm-hip,3
+1684,tcp/udp,snaresecure,SnareSecure,3
+1685,tcp/udp,n2nremote,n2nremote,3
+1686,tcp/udp,cvmon,cvmon,3
+1687,tcp/udp,nsjtp-ctrl,nsjtp-ctrl,3
+1688,tcp/udp,nsjtp-data,nsjtp-data,3
+1689,tcp/udp,firefox,firefox,3
+1690,tcp/udp,ng-umds,ng-umds,3
+1691,tcp/udp,empire-empuma,empire-empuma,3
+1692,tcp/udp,sstsys-lm,sstsys-lm,3
+1693,tcp/udp,rrirtr,rrirtr,3
+1694,tcp/udp,rrimwm,rrimwm,3
+1695,tcp/udp,rrilwm,rrilwm,3
+1696,tcp/udp,rrifmm,rrifmm,3
+1697,tcp/udp,rrisat,rrisat,3
+1698,tcp/udp,rsvp-encap-1,RSVP-ENCAPSULATION-1,3
+1699,tcp/udp,rsvp-encap-2,RSVP-ENCAPSULATION-2,3
+1701,udp,l2f,l2f,3
+1701,tcp/udp,l2tp,l2tp,3
+1702,tcp/udp,deskshare,deskshare,3
+1703,tcp/udp,hb-engine,hb-engine,3
+1704,tcp/udp,bcs-broker,bcs-broker,3
+1705,tcp/udp,slingshot,slingshot,3
+1706,tcp/udp,jetform,jetform,3
+1707,tcp/udp,vdmplay,vdmplay,3
+1708,tcp/udp,gat-lmd,gat-lmd,3
+1709,tcp/udp,centra,centra,3
+1710,tcp/udp,impera,impera,3
+1711,tcp/udp,pptconference,pptconference,3
+1712,tcp/udp,registrar,resource monitoring service,3
+1713,tcp/udp,conferencetalk,ConferenceTalk,3
+1714,tcp/udp,sesi-lm,sesi-lm,3
+1715,tcp/udp,houdini-lm,houdini-lm,3
+1716,tcp/udp,xmsg,xmsg,3
+1717,tcp/udp,fj-hdnet,fj-hdnet,3
+1718,tcp/udp,h323gatedisc,h323gatedisc,3
+1719,tcp/udp,h323gatestat,h323gatestat,3
+1720,tcp/udp,h323hostcall,h323hostcall,3
+1721,tcp/udp,caicci,caicci,3
+1722,tcp/udp,hks-lm,HKS License Manager,3
+1723,tcp/udp,pptp,pptp,3
+1724,tcp/udp,csbphonemaster,csbphonemaster,3
+1725,tcp/udp,iden-ralp,iden-ralp,3
+1726,tcp/udp,iberiagames,IBERIAGAMES,3
+1727,tcp/udp,winddx,winddx,3
+1728,tcp/udp,telindus,TELINDUS,3
+1729,tcp/udp,citynl,CityNL License Management,3
+1730,tcp/udp,roketz,roketz,3
+1731,tcp/udp,msiccp,MSICCP,3
+1732,tcp/udp,proxim,proxim,3
+1733,tcp/udp,siipat,SIMS – SIIPAT Protocol for Alarm Transmission,3
+1734,tcp/udp,cambertx-lm,Camber Corporation License Management,3
+1735,tcp/udp,privatechat,PrivateChat,3
+1736,tcp/udp,street-stream,street-stream,3
+1737,tcp/udp,ultimad,ultimad,3
+1738,tcp/udp,gamegen1,GameGen1,3
+1739,tcp/udp,webaccess,webaccess,3
+1740,tcp/udp,encore,encore,3
+1741,tcp/udp,cisco-net-mgmt,cisco-net-mgmt,3
+1742,tcp/udp,3Com-nsd,3Com-nsd,3
+1743,tcp/udp,cinegrfx-lm,Cinema Graphics License Manager,3
+1744,tcp/udp,ncpm-ft,ncpm-ft,3
+1745,tcp/udp,remote-winsock,remote-winsock,3
+1746,tcp/udp,ftrapid-1,ftrapid-1,3
+1747,tcp/udp,ftrapid-2,ftrapid-2,3
+1748,tcp/udp,oracle-em1,oracle-em1,3
+1749,tcp/udp,aspen-services,aspen-services,3
+1750,tcp/udp,sslp,Simple Socket Library’s PortMaster,3
+1751,tcp/udp,swiftnet,SwiftNet,3
+1752,tcp/udp,lofr-lm,Leap of Faith Research License Manager,3
+1753,tcp/udp,translogic-lm,Translogic License Manager,3
+1754,tcp/udp,oracle-em2,oracle-em2,3
+1755,tcp/udp,ms-streaming,ms-streaming,3
+1756,tcp/udp,capfast-lmd,capfast-lmd,3
+1757,tcp/udp,cnhrp,cnhrp,3
+1758,tcp/udp,tftp-mcast,tftp-mcast,3
+1759,tcp/udp,spss-lm,SPSS License Manager,3
+1760,tcp/udp,www-ldap-gw,www-ldap-gw,3
+1761,tcp/udp,cft-0,cft-0,3
+1762,tcp/udp,cft-1,cft-1,3
+1763,tcp/udp,cft-2,cft-2,3
+1764,tcp/udp,cft-3,cft-3,3
+1765,tcp/udp,cft-4,cft-4,3
+1766,tcp/udp,cft-5,cft-5,3
+1767,tcp/udp,cft-6,cft-6,3
+1768,tcp/udp,cft-7,cft-7,3
+1769,tcp/udp,bmc-net-adm,bmc-net-adm,3
+1770,tcp/udp,bmc-net-svc,bmc-net-svc,3
+1771,tcp/udp,vaultbase,vaultbase,3
+1772,tcp/udp,essweb-gw,EssWeb Gateway,3
+1773,tcp/udp,kmscontrol,KMSControl,3
+1774,tcp/udp,global-dtserv,global-dtserv,3
+1776,tcp/udp,femis,Federal Emergency Management Information System,3
+1777,tcp/udp,powerguardian,powerguardian,3
+1778,tcp/udp,prodigy-intrnet,prodigy-internet,3
+1779,tcp/udp,pharmasoft,pharmasoft,3
+1780,tcp/udp,dpkeyserv,dpkeyserv,3
+1781,tcp/udp,answersoft-lm,answersoft-lm,3
+1782,tcp/udp,hp-hcip,hp-hcip,3
+1783,tcp/udp,fjris,Fujitsu Remote Install Service,3
+1784,tcp/udp,finle-lm,Finle License Manager,3
+1785,tcp/udp,windlm,Wind River Systems License Manager,3
+1786,tcp/udp,funk-logger,funk-logger,3
+1787,tcp/udp,funk-license,funk-license,3
+1788,tcp/udp,psmond,psmond,3
+1789,tcp/udp,hello,hello,3
+1790,tcp/udp,nmsp,Narrative Media Streaming Protocol,3
+1791,tcp/udp,ea1,EA1,3
+1792,tcp/udp,ibm-dt-2,ibm-dt-2,3
+1793,tcp/udp,rsc-robot,rsc-robot,3
+1794,tcp/udp,cera-bcm,cera-bcm,3
+1795,tcp/udp,dpi-proxy,dpi-proxy,3
+1796,tcp/udp,vocaltec-admin,Vocaltec Server Administration,3
+1797,tcp/udp,uma,UMA,3
+1798,tcp/udp,etp,Event Transfer Protocol,3
+1799,tcp/udp,netrisk,NETRISK,3
+1800,tcp/udp,ansys-lm,ANSYS-License manager,3
+1801,tcp/udp,msmq,Microsoft Message Que,3
+1802,tcp/udp,concomp1,ConComp1,3
+1803,tcp/udp,hp-hcip-gwy,HP-HCIP-GWY,3
+1804,tcp/udp,enl,ENL,3
+1805,tcp/udp,enl-name,ENL-Name,3
+1806,tcp/udp,musiconline,Musiconline,3
+1807,tcp/udp,fhsp,Fujitsu Hot Standby Protocol,3
+1808,tcp/udp,oracle-vp2,Oracle-VP2,3
+1809,tcp/udp,oracle-vp1,Oracle-VP1,3
+1810,tcp/udp,jerand-lm,Jerand License Manager,3
+1811,tcp/udp,scientia-sdb,Scientia-SDB,3
+1812,tcp/udp,radius,RADIUS,3
+1813,tcp/udp,radius-acct,RADIUS Accounting,3
+1814,tcp/udp,tdp-suite,TDP Suite,3
+1815,tcp/udp,mmpft,MMPFT,3
+1816,tcp/udp,harp,HARP,3
+1817,tcp/udp,#,Unassigned,3
+1818,tcp/udp,etftp,Enhanced Trivial File Transfer Protocol,3
+1819,tcp/udp,plato-lm,Plato License Manager,3
+1820,tcp/udp,mcagent,mcagent,3
+1821,tcp/udp,donnyworld,donnyworld,3
+1822,tcp/udp,es-elmd,es-elmd,3
+1823,tcp/udp,unisys-lm,Unisys Natural Language License Manager,3
+1824,tcp/udp,metrics-pas,metrics-pas,3
+1825-1849,tcp/udp,#,Unassigned,3
+1850,tcp/udp,gsi,GSI,3
+1851-1859,tcp/udp,#,Unassigned,3
+1860,tcp/udp,sunscalar-svc,SunSCALAR Services,3
+1861,tcp/udp,lecroy-vicp,LeCroy VICP,3
+1862,tcp/udp,techra-server,techra-server,3
+1863,tcp/udp,msnp,MSNP,3
+1864,tcp/udp,paradym-31port,Paradym 31 Port,3
+1865,tcp/udp,entp,ENTP,3
+1866-1869,tcp/udp,#,Unassigned,3
+1870,tcp/udp,sunscalar-dns,SunSCALAR DNS Service,3
+1871-1880,tcp/udp,#,Unassigned,3
+1881,tcp/udp,ibm-mqseries2,IBM MQSeries,3
+1882-1900,tcp/udp,#,Unassigned,3
+1901,tcp/udp,fjicl-tep-a,Fujitsu ICL Terminal Emulator Program A,3
+1902,tcp/udp,fjicl-tep-b,Fujitsu ICL Terminal Emulator Program B,3
+1903,tcp/udp,linkname,Local Link Name Resolution,3
+1904,tcp/udp,fjicl-tep-c,Fujitsu ICL Terminal Emulator Program C,3
+1905,tcp/udp,sugp,Secure UP.Link Gateway Protocol,3
+1906,tcp/udp,tpmd,TPortMapperReq,3
+1907,tcp/udp,intrastar,IntraSTAR,3
+1908,tcp/udp,dawn,Dawn,3
+1909,tcp/udp,global-wlink,Global World Link,3
+1908-1910,tcp/udp,#,Unassigned,3
+1911,tcp/udp,mtp,Starlight Networks Multimedia Transport Protocol,3
+1912,tcp/udp,#,Unassigned,3
+1913,tcp/udp,armadp,armadp,3
+1914,tcp/udp,elm-momentum,Elm-Momentum,3
+1915,tcp/udp,facelink,FACELINK,3
+1916,tcp/udp,persona,Persoft Persona,3
+1917,tcp/udp,noagent,nOAgent,3
+1918,tcp/udp,can-nds,Candle Directory Service – NDS,3
+1919,tcp/udp,can-dch,Candle Directory Service – DCH,3
+1920,tcp/udp,can-ferret,Candle Directory Service – FERRET,3
+1921,tcp/udp,noadmin,NoAdmin,3
+1922-1943,tcp/udp,#,Unassigned,3
+1944,tcp/udp,close-combat,close-combat,3
+1945,tcp/udp,dialogic-elmd,dialogic-elmd,3
+1946,tcp/udp,tekpls,tekpls,3
+1947,tcp/udp,hlserver,hlserver,3
+1948,tcp/udp,eye2eye,eye2eye,3
+1949,tcp/udp,ismaeasdaqlive,ISMA Easdaq Live,3
+1950,tcp/udp,ismaeasdaqtest,ISMA Easdaq Test,3
+1951,tcp/udp,bcs-lmserver,bcs-lmserver,3
+1952-1972,tcp/udp,#,Unassigned,3
+1973,tcp/udp,dlsrap,Data Link Switching Remote Access Protocol,3
+1974-1984,tcp/udp,#,Unassigned,3
+1985,tcp/udp,hsrp,Hot Standby Router Protocol,3
+1986,tcp/udp,licensedaemon,cisco license management,3
+1987,tcp/udp,tr-rsrb-p1,cisco RSRB Priority 1 port,3
+1988,tcp/udp,tr-rsrb-p2,cisco RSRB Priority 2 port,3
+1989,udp,tr-rsrb-p3,cisco RSRB Priority 3 port,3
+1989,tcp/udp,mshnet,MHSnet system,3
+1990,tcp/udp,stun-p1,cisco STUN Priority 1 port,3
+1991,tcp/udp,stun-p2,cisco STUN Priority 2 port,3
+1992,udp,stun-p3,cisco STUN Priority 3 port,3
+1992,tcp/udp,ipsendmsg,IPsendmsg,3
+1993,tcp/udp,snmp-tcp-port,cisco SNMP TCP port,3
+1994,tcp/udp,stun-port,cisco serial tunnel port,3
+1995,tcp/udp,perf-port,cisco perf port,3
+1996,tcp/udp,tr-rsrb-port,cisco Remote SRB port,3
+1997,tcp/udp,gdp-port,cisco Gateway Discovery Protocol,3
+1998,tcp/udp,x25-svc-port,cisco X.25 service (XOT),3
+1999,tcp/udp,tcp-id-port,cisco identification port,3
+2001,tcp,dc,,3
+2001,udp,wizard,curry,3
+2002,tcp/udp,globe,,3
+2004,tcp,mailbox,,3
+2004,udp,emce,CCWS mm conf,3
+2005,tcp,berknet,,3
+2005,udp,oracle,,3
+2006,tcp,invokator,,3
+2006,udp,raid-cc,raid,3
+2007,tcp,dectalk,,3
+2007,udp,raid-am,,3
+2008,tcp,conf,,3
+2008,udp,terminaldb,,3
+2009,tcp,news,,3
+2009,udp,whosockami,,3
+2010,tcp,search,,3
+2010,udp,pipe_server,,3
+2011,tcp,raid-cc,raid,3
+2011,udp,servserv,,3
+2012,tcp,ttyinfo,,3
+2012,udp,raid-ac,,3
+2013,tcp,raid-am,,3
+2013,udp,raid-cd,,3
+2014,tcp,troff,,3
+2014,udp,raid-sf,,3
+2015,tcp,cypress,,3
+2015,udp,raid-cs,,3
+2016,tcp/udp,bootserver,,3
+2017,tcp,cypress-stat,,3
+2017,udp,bootclient,,3
+2018,tcp,terminaldb,,3
+2018,udp,rellpack,,3
+2019,tcp,whosockami,,3
+2019,udp,about,,3
+2020,tcp/udp,xinupageserver,,3
+2021,tcp,servexec,,3
+2021,udp,xinuexpansion1,,3
+2022,tcp,down,,3
+2022,udp,xinuexpansion2,,3
+2023,tcp/udp,xinuexpansion3,,3
+2024,tcp/udp,xinuexpansion4,,3
+2025,tcp,ellpack,,3
+2025,udp,xribs,,3
+2026,tcp/udp,scrabble,,3
+2027,tcp/udp,shadowserver,,3
+2028,tcp/udp,submitserver,,3
+2030,tcp/udp,device2,,3
+2032,tcp/udp,blackboard,,3
+2033,tcp/udp,glogger,,3
+2034,tcp/udp,scoremgr,,3
+2035,tcp/udp,imsldoc,,3
+2038,tcp/udp,objectmanager,,3
+2040,tcp/udp,lam,,3
+2041,tcp/udp,interbase,,3
+2042,tcp/udp,isis,isis,3
+2043,tcp/udp,isis-bcast,isis-bcast,3
+2044,tcp/udp,rimsl,,3
+2045,tcp/udp,cdfunc,,3
+2046,tcp/udp,sdfunc,,3
+2047,tcp/udp,dls,,3
+2048,tcp/udp,dls-monitor,,3
+2049,udp,shilp,,5
+2049,tcp/udp,nfs,Network File System – Sun Microsystems,3
+2065,tcp/udp,dlsrpn,Data Link Switch Read Port Number,3
+2067,tcp/udp,dlswpn,Data Link Switch Write Port Number,3
+2090,tcp/udp,lrp,Load Report Protocol,3
+2091-2101,tcp/udp,#,Unassigned,3
+2102,tcp/udp,zephyr-srv,Zephyr server,3
+2103,tcp/udp,zephyr-clt,Zephyr serv-hm connection,3
+2104,tcp/udp,zephyr-hm,Zephyr hostmanager,3
+2105,tcp/udp,minipay,MiniPay,3
+2106-2179,tcp/udp,#,Unassigned,3
+2180,tcp/udp,mc-gt-srv,Millicent Vendor Gateway Server,3
+2201,tcp/udp,ats,Advanced Training System Program,3
+2202,tcp/udp,imtc-map,Int. Multimedia Teleconferencing Cosortium,3
+2213,tcp/udp,kali,Kali,3
+2220,tcp/udp,ganymede,Ganymede,3
+2221,tcp/udp,unreg-ab1,Allen-Bradley unregistered port,3
+2222,tcp/udp,unreg-ab2,Allen-Bradley unregistered port,3
+2223,tcp/udp,inreg-ab3,Allen-Bradley unregistered port,3
+2232,tcp/udp,ivs-video,IVS Video default,3
+2233,tcp/udp,infocrypt,INFOCRYPT,3
+2234,tcp/udp,directplay,DirectPlay,3
+2235,tcp/udp,sercomm-wlink,Sercomm-WLink,3
+2236,tcp/udp,nani,Nani,3
+2237,tcp/udp,optech-port1-lm,Optech Port1 License Manager,3
+2238,tcp/udp,aviva-sna,AVIVA SNA SERVER,3
+2239,tcp/udp,imagequery,Image Query,3
+2240,tcp/udp,recipe,RECIPe,3
+2241,tcp/udp,ivsd,IVS Daemon,3
+2242,tcp/udp,foliocorp,Folio Remote Server,3
+2243-2278,tcp/udp,#,Unassigned,3
+2279,tcp/udp,xmquery,xmquery,3
+2280,tcp/udp,lnvpoller,LNVPOLLER,3
+2281,tcp/udp,lnvconsole,LNVCONSOLE,3
+2282,tcp/udp,lnvalarm,LNVALARM,3
+2283,tcp/udp,lnvstatus,LNVSTATUS,3
+2284,tcp/udp,lnvmaps,LNVMAPS,3
+2285,tcp/udp,lnvmailmon,LNVMAILMON,3
+2286,tcp/udp,nas-metering,NAS-Metering,3
+2287,tcp/udp,dna,DNA,3
+2288,tcp/udp,netml,NETML,3
+2289-2294,tcp/udp,#,Unassigned,3
+2295,tcp/udp,advant-lm,Advant License Manager,3
+2296,tcp/udp,theta-lm,Theta License Manager (Rainbow),3
+2297,tcp/udp,d2k-datamover1,D2K DataMover 1,3
+2298,tcp/udp,d2k-datamover2,D2K DataMover 2,3
+2299,tcp/udp,pc-telecommute,PC Telecommute,3
+2300,tcp/udp,cvmmon,CVMMON,3
+2301,tcp/udp,cpq-wbem,Compaq HTTP,3
+2302,tcp/udp,binderysupport,Bindery Support,3
+2303,tcp/udp,proxy-gateway,Proxy Gateway,3
+2304,tcp/udp,attachmate-uts,Attachmate UTS,3
+2305,tcp/udp,mt-scaleserver,MT ScaleServer,3
+2306,tcp/udp,tappi-boxnet,TAPPI BoxNet,3
+2307,tcp/udp,pehelp,pehelp,3
+2308,tcp/udp,sdhelp,sdhelp,3
+2309,tcp/udp,sdserver,SD Server,3
+2310,tcp/udp,sdclient,SD Client,3
+2311,tcp/udp,messageservice,Message Service,3
+2312,tcp/udp,#,Unassigned,3
+2313,tcp/udp,iapp,IAPP (Inter Access Point Protocol),3
+2314,tcp/udp,cr-websystems,CR WebSystems,3
+2315,tcp/udp,precise-sft,Precise Sft.,3
+2316,tcp/udp,sent-lm,SENT License Manager,3
+2317,tcp/udp,attachmate-g32,Attachmate G32,3
+2318,tcp/udp,cadencecontrol,Cadence Control,3
+2319,tcp/udp,infolibria,InfoLibria,3
+2320,tcp/udp,siebel-ns,Siebel NS,3
+2321,tcp,rdlap,RDLAP over UDP,3
+2321,udp,rdlap,RDLAP,3
+2322,tcp/udp,ofsd,ofsd,3
+2323,tcp/udp,3d-nfsd,3d-nfsd,3
+2324,tcp/udp,cosmocall,Cosmocall,3
+2325,tcp/udp,designspace-lm,Design Space License Management,3
+2326,tcp/udp,idcp,IDCP,3
+2327,tcp/udp,xingcsm,xingcsm,3
+2328,tcp/udp,netrix-sftm,Netrix SFTM,3
+2329,tcp/udp,nvd,NVD,3
+2330,tcp/udp,tscchat,TSCCHAT,3
+2331,tcp/udp,agentview,AGENTVIEW,3
+2332,tcp/udp,rcc-host,RCC Host,3
+2333,tcp/udp,snapp,SNAPP,3
+2334,tcp/udp,ace-client,ACE Client Auth,3
+2335,tcp/udp,ace-proxy,ACE Proxy,3
+2336,tcp/udp,appleugcontrol,Apple UG Control,3
+2337,tcp/udp,ideesrv,ideesrv,3
+2338,tcp/udp,norton-lambert,Norton Lambert,3
+2339,tcp/udp,3com-webview,3Com WebView,3
+2340,tcp/udp,wrs_registry,WRS Registry,3
+2341,tcp/udp,xiostatus,XIO Status,3
+2342,tcp/udp,manage-exec,Seagate Manage Exec,3
+2343,tcp/udp,nati-logos,nati logos,3
+2344,tcp/udp,fcmsys,fcmsys,3
+2345,tcp/udp,dbm,dbm,3
+2346,tcp/udp,redstorm_join,Game Connection Port,3
+2347,tcp/udp,redstorm_find,Game Announcement and Location,3
+2348,tcp/udp,redstorm_info,Information to query for game status,3
+2349,tcp,redstorm_diag,Diagnostics Port,3
+2349,udp,redstorm_diag,Disgnostics Port,3
+2350,tcp/udp,psbserver,psbserver,3
+2351,tcp/udp,psrserver,psrserver,3
+2352,tcp/udp,pslserver,pslserver,3
+2353,tcp/udp,pspserver,pspserver,3
+2354,tcp/udp,psprserver,psprserver,3
+2355,tcp/udp,psdbserver,psdbserver,3
+2356,tcp/udp,gxtelmd,GXT License Managemant,3
+2357,tcp/udp,unihub-server,UniHub Server,3
+2358,tcp/udp,futrix,Futrix,3
+2359-2388,tcp/udp,#,Unassigned,3
+2389,tcp/udp,ovsessionmgr,OpenView Session Mgr,3
+2390,tcp/udp,rsmtp,RSMTP,3
+2391,tcp/udp,3com-net-mgmt,3COM Net Management,3
+2392,tcp/udp,tacticalauth,Tactical Auth,3
+2393,tcp/udp,ms-olap1,MS OLAP 1,3
+2394,tcp,ms-olap2,MS OLAP 2,3
+2394,udp,ms-olap2,MA OLAP 2,3
+2395,tcp/udp,lan900_remote,LAN900 Remote,3
+2396,tcp/udp,wusage,Wusage,3
+2397,tcp/udp,ncl,NCL,3
+2398,tcp/udp,orbiter,Orbiter,3
+2399,tcp/udp,fmpro-fdal,FileMaker, Inc. – Data Access Layer,3
+2400,tcp/udp,opequus-server,OpEquus Server,3
+2401,tcp/udp,cvspserver,cvspserver,3
+2402,tcp/udp,taskmaster2000,TaskMaster 2000 Server,3
+2403,tcp/udp,taskmaster2000,TaskMaster 2000 Web,3
+2404,tcp/udp,iec870-5-104,IEC870-5-104,3
+2405,tcp/udp,trc-netpoll,TRC Netpoll,3
+2406,tcp/udp,jediserver,JediServer,3
+2407,tcp/udp,orion,Orion,3
+2408,tcp/udp,optimanet,OptimaNet,3
+2409,tcp/udp,sns-protocol,SNS Protocol,3
+2410,tcp/udp,vrts-registry,VRTS Registry,3
+2411,tcp/udp,netwave-ap-mgmt,Netwave AP Management,3
+2412,tcp/udp,cdn,CDN,3
+2413,tcp/udp,orion-rmi-reg,orion-rmi-reg,3
+2414,tcp/udp,interlingua,Interlingua,3
+2415-2499,tcp/udp,#,Unassigned2501,tcp/udp,rtsclient,Resource Tracking system client,3
+2502-2524,tcp/udp,#,Unassigned,3
+2525,tcp/udp,ms-v-worlds,MS V-Worlds,3
+2526,tcp/udp,ema-sent-lm,EMA License Manager,3
+2527,tcp/udp,iqserver,IQ Server,3
+2528,tcp/udp,ncr_ccl,NCR CCL,3
+2529,tcp/udp,utsftp,UTS FTP,3
+2530,tcp/udp,vrcommerce,VR Commerce,3
+2531,tcp/udp,ito-e-gui,ITO-E GUI,3
+2532,tcp/udp,ovtopmd,OVTOPMD,3
+2533,tcp/udp,#,Unassigned,3
+2534,tcp/udp,combox-web-acc,Combox Web Access,3
+2535-2563,tcp/udp,#,Unassigned,3
+2564,tcp,hp-3000-telnet,HP 3000 NS/VT block mode telnet,3
+2565-2591,tcp/udp,#,Unassigned,3
+2592,tcp/udp,netrek,netrek,3
+2593,tcp/udp,mns-mail,MNS Mail Notice Service,3
+2594-2627,tcp/udp,#,Unassigned,3
+2628,tcp/udp,dict,DICT,3
+2629,tcp/udp,sitaraserver,Sitara Server,3
+2630,tcp/udp,sitaramgmt,Sitara Management,3
+2631,tcp/udp,sitaradir,Sitara Dir,3
+2632,tcp/udp,irdg-post,IRdg Post,3
+2633,tcp/udp,interintelli,InterIntelli,3
+2634,tcp/udp,pk-electronics,PK Electronics,3
+2635,tcp/udp,backburner,Back Burner,3
+2636,tcp/udp,solve,Solve,3
+2637,tcp/udp,imdocsvc,Import Document Service,3
+2638,tcp/udp,sybaseanywhere,Sybase Anywhere,3
+2639,tcp/udp,aminet,AMInet,3
+2640,tcp/udp,sai_sentlm,Sabbagh Associates Licence Manager,3
+2641,tcp/udp,hdl-srv,HDL Server,3
+2642,tcp/udp,tragic,Tragic,3
+2643,tcp/udp,gte-samp,GTE-SAMP,3
+2644,tcp/udp,travsoft-ipx-t,Travsoft IPX Tunnel,3
+2645,tcp/udp,novell-ipx-cmd,Novell IPX CMD,3
+2646,tcp,and-lm,AND Licence Manager,3
+2646,udp,and-lm,AND License Manager,3
+2647,tcp/udp,syncserver,SyncServer,3
+2648,tcp/udp,upsnotifyprot,Upsnotifyprot,3
+2649,tcp/udp,vpsipport,VPSIPPORT,3
+2650,tcp/udp,eristwoguns,eristwoguns,3
+2651,tcp/udp,ebinsite,EBInSite,3
+2652,tcp/udp,interpathpanel,InterPathPanel,3
+2653,tcp/udp,sonus,Sonus,3
+2654,tcp/udp,corel_vncadmin,Corel VNC Admin,3
+2655,tcp/udp,unglue,UNIX Nt Glue,3
+2656,tcp/udp,kana,Kana,3
+2657,tcp/udp,sns-dispatcher,SNS Dispatcher,3
+2658,tcp/udp,sns-admin,SNS Admin,3
+2659,tcp/udp,sns-query,SNS Query,3
+2660-2699,tcp/udp,#,Unassigned,3
+2700,tcp/udp,tqdata,tqdata,3
+2701-2783,tcp/udp,#,Unassigned,3
+2784,tcp/udp,www-dev,world wide web – development,3
+2785,tcp/udp,aic-np,aic-np,3
+2786,tcp/udp,aic-oncrpc,aic-oncrpc – Destiny MCD database,3
+2787,tcp/udp,piccolo,piccolo – Cornerstone Software,3
+2788,tcp/udp,fryeserv,NetWare Loadable Module – Seagate Software,3
+2789,tcp/udp,media-agent,Media Agent,3
+2789-2907,tcp/udp,#,Unassigned,3
+2908,tcp/udp,mao,mao,3
+2909,tcp/udp,funk-dialout,Funk Dialout,3
+2910,tcp/udp,tdaccess,TDAccess,3
+2911,tcp/udp,blockade,Blockade,3
+2912,tcp/udp,epicon,Epicon,3
+2913,tcp/udp,boosterware,Booster Ware,3
+2914,tcp/udp,gamelobby,Game Lobby,3
+2915,tcp/udp,tksocket,TK Socket,3
+2916,tcp/udp,elvin_server,Elvin Server,3
+2917,tcp/udp,elvin_client,Elvin Client,3
+2918,tcp/udp,kastenchasepad,Kasten Chase Pad,3
+2918-2970,tcp/udp,#,Unassigned,3
+2971,tcp/udp,netclip,Net Clip,3
+2972,tcp/udp,pmsm-webrctl,PMSM Webrctl,3
+2973,tcp/udp,svnetworks,SV Networks,3
+2974,tcp/udp,signal,Signal,3
+2975,tcp/udp,fjmpcm,Fujitsu Configuration Management Service,3
+2976-2997,tcp/udp,#,Unassigned,3
+2998,tcp/udp,realsecure,Real Secure,3
+2999,tcp/udp,remoteware-un,RemoteWare Unassigned,3
+3000,udp,hbci,HBCI,3
+3000,tcp/udp,remoteware-cl,RemoteWare Client,3
+3001,tcp/udp,redwood-broker,Redwood Broker,3
+3002,udp,exlm-agent,EXLM Agent,3
+3002,tcp/udp,remoteware-srv,RemoteWare Server,3
+3003,tcp/udp,cgms,CGMS,3
+3004,tcp/udp,csoftragent,Csoft Agent,3
+3005,tcp/udp,geniuslm,Genius License Manager,3
+3006,tcp/udp,ii-admin,Instant Internet Admin,3
+3007,tcp/udp,lotusmtap,Lotus Mail Tracking Agent Protocol,3
+3008,tcp/udp,midnight-tech,Midnight Technologies,3
+3009,tcp/udp,pxc-ntfy,PXC-NTFY,3
+3010,tcp,gw,Telerate Workstation,3
+3010,udp,ping-pong,Telerate Workstation,3
+3011,tcp/udp,trusted-web,Trusted Web,3
+3012,tcp/udp,twsdss,Trusted Web Client,3
+3013,tcp/udp,gilatskysurfer,Gilat Sky Surfer,3
+3014,tcp/udp,broker_service,Broker Service,3
+3015,tcp/udp,nati-dstp,NATI DSTP,3
+3016,tcp/udp,notify_srvr,Notify Server,3
+3017,tcp/udp,event_listener,Event Listener,3
+3018,tcp/udp,srvc_registry,Service Registry,3
+3019,tcp/udp,resource_mgr,Resource Manager,3
+3020,tcp/udp,cifs,CIFS,3
+3021,tcp/udp,agriserver,AGRI Server,3
+3022-3046,tcp/udp,#,Unassigned,3
+3047,tcp/udp,hlserver,Fast Security HL Server,3
+3048,tcp/udp,pctrader,Sierra Net PC Trader,3
+3049,tcp/udp,nsws,NSWS,3
+3050-3079,tcp/udp,#,Unassigned,3
+3080,tcp/udp,stm_pproc,stm_pproc,3
+3081-3104,tcp/udp,#,Unassigned,3
+3105,tcp/udp,cardbox,Cardbox,3
+3106,tcp/udp,cardbox-http,Cardbox HTTP,3
+3107-3129,tcp/udp,#,Unassigned,3
+3130,tcp/udp,icpv2,ICPv2,3
+3131,tcp/udp,netbookmark,Net Book Mark,3
+3132-3140,tcp/udp,#,Unassigned,3
+3141,tcp/udp,vmodem,VMODEM,3
+3142,tcp/udp,rdc-wh-eos,RDC WH EOS,3
+3143,tcp/udp,seaview,Sea View,3
+3144,tcp/udp,tarantella,Tarantella,3
+3145,tcp/udp,csi-lfap,CSI-LFAP,3
+3146,tcp/udp,#,Unassigned,3
+3147,tcp/udp,rfio,RFIO,3
+3148-3179,tcp/udp,#,Unassigned,3
+3180,tcp/udp,mc-brk-srv,Millicent Broker Server,3
+3181-3263,tcp/udp,#,Unassigned,3
+3264,tcp/udp,ccmail,cc:mail/lotus,3
+3265,tcp/udp,altav-tunnel,Altav Tunnel,3
+3266,tcp/udp,ns-cfg-server,NS CFG Server,3
+3267,tcp/udp,ibm-dial-out,IBM Dial Out,3
+3268,tcp/udp,msft-gc,Microsoft Global Catalog,3
+3269,tcp/udp,msft-gc-ssl,Microsoft Global Catalog with LDAP/SSL,3
+3270,tcp/udp,verismart,Verismart,3
+3271,tcp/udp,csoft-prev,CSoft Prev Port,3
+3272,tcp/udp,user-manager,Fujitsu User Manager,3
+3273,tcp/udp,sxmp,Simple Extensible Multiplexed Protocol,3
+3274,tcp/udp,ordinox-server,Ordinox Server,3
+3275,tcp/udp,samd,SAMD,3
+3276,tcp/udp,maxim-asics,Maxim ASICs,3
+3277,tcp/udp,awg-proxy,AWG Proxy,3
+3278,tcp/udp,lkcmserver,LKCM Server,3
+3279,tcp/udp,admind,admind,3
+3280,tcp/udp,vs-server,VS Server,3
+3281,tcp/udp,sysopt,SYSOPT,3
+3282,tcp/udp,datusorb,Datusorb,3
+3283,tcp/udp,net-assistant,Net Assistant,3
+3284,tcp/udp,4talk,4Talk,3
+3285,tcp/udp,plato,Plato,3
+3286,tcp/udp,e-net,E-Net,3
+3287,tcp/udp,directvdata,DIRECTVDATA,3
+3288,tcp/udp,cops,COPS,3
+3289,tcp/udp,enpc,ENPC,3
+3290,tcp/udp,caps-lm,CAPS LOGISTICS TOOLKIT – LM,3
+3291,tcp/udp,sah-lm,S A Holditch & Associates – LM,3
+3292,tcp/udp,cart-o-rama,Cart O Rama,3
+3293,tcp/udp,fg-fps,fg-fps,3
+3294,tcp/udp,fg-gip,fg-gip,3
+3295,tcp/udp,dyniplookup,Dynamic IP Lookup,3
+3296,tcp/udp,rib-slm,Rib License Manager,3
+3297,tcp/udp,cytel-lm,Cytel License Manager,3
+3298,tcp/udp,transview,Transview,3
+3299,tcp/udp,pdrncs,pdrncs3301,tcp/udp,bmcpatrolrnvu,BMC Patrol Rendezvous,3
+3302,tcp/udp,mcs-fastmail,MCS Fastmail,3
+3303,tcp/udp,opsession-clnt,OP Session Client,3
+3304,tcp/udp,opsession-srvr,OP Session Server,3
+3305,tcp/udp,odette-ftp,ODETTE-FTP,3
+3306,tcp/udp,mysql,MySQL,5
+3307,tcp/udp,opsession-prxy,OP Session Proxy,3
+3308,tcp/udp,tns-server,TNS Server,3
+3309,tcp,tns-adv,TNS ADV,3
+3309,udp,tns-adv,TND ADV,3
+3310,tcp/udp,dyna-access,Dyna Access,3
+3311,tcp/udp,mcns-tel-ret,MCNS Tel Ret,3
+3312,tcp/udp,appman-server,Application Management Server,3
+3313,tcp/udp,uorb,Unify Object Broker,3
+3314,tcp/udp,uohost,Unify Object Host,3
+3315,tcp/udp,cdid,CDID,3
+3316,tcp/udp,aicc-cmi,AICC/CMI,3
+3317,tcp/udp,vsaiport,VSAI PORT,3
+3318,tcp/udp,ssrip,Swith to Swith Routing Information Protocol,3
+3319,tcp/udp,sdt-lmd,SDT License Manager,3
+3320,tcp/udp,officelink2000,Office Link 2000,3
+3321,tcp/udp,vnsstr,VNSSTR,3
+3322-3325,tcp/udp,active-net,Active Networks,3
+3326,tcp/udp,sftu,SFTU,3
+3327,tcp/udp,bbars,BBARS,3
+3328,tcp/udp,egptlm,Eaglepoint License Manager,3
+3329,tcp/udp,hp-device-disc,HP Device Disc,3
+3330,tcp/udp,mcs-calypsoicf,MCS Calypso ICF,3
+3331,tcp/udp,mcs-messaging,MCS Messaging,3
+3332,tcp/udp,mcs-mailsvr,MCS Mail Server,3
+3333,tcp/udp,dec-notes,DEC Notes,3
+3334,tcp/udp,directv-web,Direct TV Webcasting,3
+3335,tcp/udp,directv-soft,Direct TV Software Updates,3
+3336,tcp/udp,directv-tick,Direct TV Tickers,3
+3337,tcp/udp,directv-catlg,Direct TV Data Catalog,3
+3338,tcp/udp,anet-b,OMF data b,3
+3339,tcp/udp,anet-l,OMF data l,3
+3340,tcp/udp,anet-m,OMF data m,3
+3341,tcp/udp,anet-h,OMF data h,3
+3342,tcp/udp,webtie,WebTIE,3
+3343,tcp/udp,ms-cluster-net,MS Cluster Net,3
+3344,tcp/udp,bnt-manager,BNT Manager,3
+3345,tcp/udp,influence,Influence,3
+3346,tcp/udp,trnsprntproxy,Trnsprnt Proxy,3
+3347,tcp/udp,phoenix-rpc,Phoenix RPC,3
+3348,tcp/udp,pangolin-laser,Pangolin Laser,3
+3349,tcp/udp,chevinservices,Chevin Services,3
+3350,tcp/udp,findviatv,FINDVIATV,3
+3351,tcp/udp,btrieve,BTRIEVE,3
+3352,tcp/udp,ssql,SSQL,3
+3353,tcp/udp,fatpipe,FATPIPE,3
+3354,tcp/udp,suitjd,SUITJD,3
+3355,tcp/udp,ordinox-dbase,Ordinox Dbase,3
+3356,tcp/udp,upnotifyps,UPNOTIFYPS,3
+3357,tcp/udp,adtech-test,Adtech Test IP,3
+3358,tcp/udp,mpsysrmsvr,Mp Sys Rmsvr,3
+3359,tcp/udp,wg-netforce,WG NetForce,3
+3360,tcp/udp,kv-server,KV Server,3
+3361,tcp/udp,kv-agent,KV Agent,3
+3362,tcp/udp,dj-ilm,DJ ILM,3
+3363,tcp/udp,nati-vi-server,NATI Vi Server,3
+3364,tcp/udp,creativeserver,Creative Server,3
+3365,tcp/udp,contentserver,Content Server,3
+3366,tcp/udp,creativepartnr,Creative Partner,3
+3367-3371,tcp/udp,satvid-datalnk,Satellite Video Data Link,3
+3372,tcp/udp,tip2,TIP 2,3
+3373,tcp/udp,lavenir-lm,Lavenir License Manager,3
+3374,tcp/udp,cluster-disc,Cluster Disc,3
+3375,tcp/udp,vsnm-agent,VSNM Agent,3
+3376,tcp,cdborker,CD Broker,3
+3376,udp,cdbroker,CD Broker,3
+3377,tcp/udp,cogsys-lm,Cogsys Network License Manager,3
+3378,tcp/udp,wsicopy,WSICOPY,3
+3379,tcp/udp,socorfs,SOCORFS,3
+3380,tcp/udp,sns-channels,SNS Channels,3
+3381,tcp/udp,geneous,Geneous,3
+3382,tcp/udp,fujitsu-neat,Fujitsu Network Enhanced Antitheft function,3
+3383,tcp/udp,esp-lm,Enterprise Software Products License Manager,3
+3384,tcp,hp-clic,Cluster Management Services,3
+3384,udp,hp-clic,Hardware Management,3
+3385,tcp/udp,qnxnetman,qnxnetman,3
+3386,tcp,gprs-data,GPRS Data,3
+3386,udp,gprs-sig,GPRS SIG,3
+3387,tcp/udp,backroomnet,Back Room Net,3
+3388,tcp/udp,cbserver,CB Server,3
+3389,tcp/udp,ms-wbt-server,MS WBT Server(ターミナルサービス/リモートデスクトップ),3
+3390,tcp/udp,dsc,Distributed Service Coordinator,3
+3391,tcp/udp,savant,SAVANT,3
+3392,tcp/udp,efi-lm,EFI License Management,3
+3393,tcp/udp,d2k-tapestry1,D2K Tapestry Client to Server,3
+3394,tcp/udp,d2k-tapestry2,D2K Tapestry Server to Server,3
+3395,tcp/udp,dyna-lm,Dyna License Manager (Elam),3
+3396,tcp/udp,printer_agent,Printer Agent,3
+3397,tcp/udp,cloanto-lm,Cloanto License Manager,3
+3398,tcp/udp,mercantile,Mercantile,3
+3399-3420,tcp/udp,#,Unassigned,3
+3421,tcp/udp,bmap,Bull Apprise portmapper,3
+3454,tcp,mira,Apple Remote Access Protocol,3
+3455,tcp/udp,prsvp,RSVP Port,3
+3456,tcp/udp,vat,VAT default data,3
+3457,tcp/udp,vat-control,VAT default control,3
+3458,tcp,d3winosfi,D3WinOsfi,3
+3458,udp,d3winosfi,DsWinOSFI,3
+3459,tcp/udp,integral,Integral,3
+3460,tcp/udp,edm-manager,EDM Manger,3
+3461,tcp/udp,edm-stager,EDM Stager,3
+3462,tcp/udp,edm-std-notify,EDM STD Notify,3
+3463,tcp/udp,edm-adm-notify,EDM ADM Notify,3
+3464,tcp/udp,edm-mgr-sync,EDM MGR Sync,3
+3465,tcp/udp,edm-mgr-cntrl,EDM MGR Cntrl,3
+3466,tcp/udp,workflow,WORKFLOW,3
+3467-3562,tcp/udp,#,Unassigned,3
+3563,tcp/udp,watcomdebug,Watcom Debug,3
+3564-3899,tcp/udp,#,Unassigned,3
+3900,tcp/udp,udt_os,Unidata UDT OS,3
+3984,tcp/udp,mapper-nodemgr,MAPPER network node manager,3
+3985,tcp/udp,mapper-mapethd,MAPPER TCP/IP server,3
+3986,tcp/udp,mapper-ws_ethd,MAPPER workstation server,3
+3987,tcp/udp,centerline,Centerline,3
+3988-3999,tcp/udp,#,Unassigned,3
+4000,tcp/udp,terabase,Terabase,5
+4001,tcp/udp,newoak,NewOak,3
+4008,tcp/udp,netcheque,NetCheque accounting,3
+4009,tcp/udp,chimera-hwm,Chimera HWM,3
+4010,tcp/udp,samsung-unidex,Samsung Unidex,3
+4011,tcp/udp,altserviceboot,Alternate Service Boot,3
+4012,tcp/udp,pda-gate,PDA Gate,3
+4013,tcp/udp,acl-manager,ACL Manager,3
+4014,tcp/udp,taiclock,TAICLOCK,3
+4015-4095,tcp/udp,#,Unassigned,3
+4096,tcp/udp,bre,BRE (Bridge Relay Element),3
+4097-4131,tcp/udp,#,Unassigned,3
+4132,tcp/udp,nuts_dem,NUTS Daemon,3
+4133,tcp/udp,nuts_bootp,NUTS Bootp Server,3
+4134,tcp/udp,nifty-hmi,NIFTY-Serve HMI protocol,3
+4141,tcp/udp,oirtgsvc,Workflow Server,3
+4142,tcp/udp,oidocsvc,Document Server,3
+4143,tcp/udp,oidsr,Document Replication,3
+4144-4199,tcp/udp,#,Unassigned,3
+4200-4299,tcp/udp,vrml-multi-use,VRML Multi User Systems,3
+4300,tcp/udp,corelccam,Corel CCam,3
+4301-4320,tcp/udp,#,Unassigned,3
+4321,tcp/udp,rwhois,Remote Who Is,3
+4343,tcp/udp,unicall,UNICALL,3
+4344,tcp/udp,vinainstall,VinaInstall,3
+4345,tcp/udp,m4-network-as,Macro 4 Network AS,3
+4346,tcp/udp,elanlm,ELAN LM,3
+4347,tcp/udp,lansurveyor,LAN Surveyor,3
+4348,tcp/udp,itose,ITOSE,3
+4349,tcp/udp,fsportmap,File System Port Map,3
+4350,tcp/udp,net-device,Net Device,3
+4351,tcp/udp,plcy-net-svcs,PLCY Net Services,3
+4352-4443,tcp/udp,#,Unassigned,3
+4444,udp,krb524,KRB524,3
+4444,tcp/udp,nv-video,NV Video default,3
+4445,tcp/udp,upnotifyp,UPNOTIFYP,3
+4446,tcp/udp,n1-fwp,N1-FWP,3
+4447,tcp/udp,n1-rmgmt,N1-RMGMT,3
+4448,tcp/udp,asc-slmd,ASC Licence Manager,3
+4449,tcp/udp,privatewire,PrivateWire,3
+4450,tcp/udp,camp,Camp,3
+4451,tcp/udp,ctisystemmsg,CTI System Msg,3
+4452,tcp/udp,ctiprogramload,CTI Program Load,3
+4453,tcp/udp,nssalertmgr,NSS Alert Manager,3
+4454,tcp/udp,nssagentmgr,NSS Agent Manager,3
+4455,tcp/udp,prchat-user,PR Chat User,3
+4456,tcp/udp,prchat-server,PR Chat Server,3
+4457,tcp/udp,prRegister,PR Register,3
+4458-4499,tcp/udp,#,Unassigned,3
+4500,tcp/udp,sae-urn,sae-urn,3
+4501,tcp/udp,urn-x-cdchoice,urn-x-cdchoice,3
+4545,tcp/udp,highscore,Highscore,3
+4546,tcp/udp,sf-lm,SF License Manager (Sentinel),3
+4547,tcp/udp,lanner-lm,Lanner License Manager,3
+4548-4671,tcp/udp,#,Unassigned,3
+4672,tcp/udp,rfa,remote file access server,3
+4673-4826,tcp/udp,#,Unassigned,3
+4827,tcp/udp,htcp,HTCP,3
+4828-4867,tcp/udp,#,Unassigned,3
+4868,tcp/udp,phrelay,Photon Relay,3
+4869,tcp/udp,phrelaydbg,Photon Relay Debug5001,tcp/udp,commplex-link,,3
+5002,tcp/udp,rfe,radio free ethernet,3
+5003,tcp,fmpro-internal,FileMaker, Inc. – Proprietary transport,3
+5003,udp,fmpro-internal,FileMaker, Inc. – Proprietary name binding,3
+5004,tcp/udp,avt-profile-1,avt-profile-1,3
+5005,tcp/udp,avt-profile-2,avt-profile-2,3
+5010,tcp/udp,telelpathstart,TelepathStart,3
+5011,tcp/udp,telelpathattack,TelepathAttack,3
+5020,tcp/udp,zenginkyo-1,zenginkyo-1,3
+5021,tcp/udp,zenginkyo-2,zenginkyo-2,3
+5050,tcp/udp,mmcc,multimedia conference control tool,3
+5051,tcp/udp,ita-agent,ITA Agent,3
+5052,tcp/udp,ita-manager,ITA Manager,3
+5060,tcp/udp,sip,SIP,3
+5145,tcp/udp,rmonitor_secure,,3
+5150,tcp/udp,atmp,Ascend Tunnel Management Protocol,3
+5190,tcp/udp,aol,America-Online,3
+5191,tcp/udp,aol-1,AmericaOnline1,3
+5192,tcp/udp,aol-2,AmericaOnline2,3
+5193,tcp/udp,aol-3,AmericaOnline3,3
+5236,tcp/udp,padl2sim,,3
+5272,tcp/udp,pk,PK,3
+5300,tcp/udp,hacl-hb,HA cluster heartbeat,3
+5301,tcp/udp,hacl-gs,HA cluster general services,3
+5302,tcp/udp,hacl-cfg,HA cluster configuration,3
+5303,tcp/udp,hacl-probe,HA cluster probing,3
+5304,tcp,hacl-local,HA Cluster Commands,3
+5304,udp,hacl-local,,3
+5305,tcp,hacl-test,HA Cluster Test,3
+5305,udp,hacl-test,,3
+5306,tcp/udp,sun-mc-grp,Sun MC Group,3
+5307,tcp/udp,sco-aip,SCO AIP,3
+5308,tcp/udp,cfengine,CFengine,3
+5309,tcp/udp,jprinter,J Printer,3
+5310,tcp/udp,outlaws,Outlaws,3
+5311,tcp/udp,tmlogin,TM Login,3
+5312-5399,tcp/udp,#,Unassigned,3
+5400,tcp/udp,excerpt,Excerpt Search,3
+5401,tcp/udp,excerpts,Excerpt Search Secure,3
+5402,tcp/udp,mftp,MFTP,3
+5403,tcp/udp,hpoms-ci-lstn,HPOMS-CI-LSTN,3
+5404,tcp/udp,hpoms-dps-lstn,HPOMS-DPS-LSTN,3
+5405,tcp/udp,netsupport,NetSupport,3
+5406,tcp/udp,systemics-sox,Systemics Sox,3
+5407,tcp/udp,foresyte-clear,Foresyte-Clear,3
+5408,tcp/udp,foresyte-sec,Foresyte-Sec,3
+5409,tcp/udp,salient-dtasrv,Salient Data Server,3
+5410,tcp/udp,salient-usrmgr,Salient User Manager,3
+5411,tcp/udp,actnet,ActNet,3
+5412,tcp/udp,continuus,Continuus,3
+5413,tcp/udp,wwiotalk,WWIOTALK,3
+5414,tcp/udp,statusd,StatusD,3
+5415,tcp/udp,ns-server,NS Server,3
+5416,tcp/udp,sns-gateway,SNS Gateway,3
+5417,tcp/udp,sns-agent,SNS Agent,3
+5418,tcp/udp,mcntp,MCNTP,3
+5419,tcp/udp,dj-ice,DJ-ICE,3
+5420,tcp/udp,cylink-c,Cylink-C,3
+5421-5499,tcp/udp,#,Unassigned,3
+5500,tcp/udp,fcp-addr-srvr1,fcp-addr-srvr1,3
+5501,tcp/udp,fcp-addr-srvr2,fcp-addr-srvr2,3
+5502,tcp/udp,fcp-srvr-inst1,fcp-srvr-inst1,3
+5503,tcp/udp,fcp-srvr-inst2,fcp-srvr-inst2,3
+5504,tcp/udp,fcp-cics-gw1,fcp-cics-gw1,3
+5504-5554,tcp/udp,#,Unassigned,3
+5555,tcp/udp,personal-agent,Personal Agent,3
+5556-5598,tcp/udp,#,Unassigned,3
+5599,tcp/udp,esinstall,Enterprise Security Remote Install,3
+5600,tcp/udp,esmmanager,Enterprise Security Manager,3
+5601,tcp/udp,esmagent,Enterprise Security Agent,3
+5602,tcp/udp,a1-msc,A1-MSC,3
+5603,tcp/udp,a1-bs,A1-BS,3
+5604,tcp/udp,a3-sdunode,A3-SDUNode,3
+5605,tcp/udp,a4-sdunode,A4-SDUNode,3
+5631,tcp/udp,pcanywheredata,pcANYWHEREdata,3
+5632,tcp/udp,pcanywherestat,pcANYWHEREstat,3
+5678,tcp/udp,rrac,Remote Replication Agent Connection,3
+5679,tcp/udp,dccm,Direct Cable Connect Manager,3
+5713,tcp/udp,proshareaudio,proshare conf audio,3
+5714,tcp/udp,prosharevideo,proshare conf video,3
+5715,tcp/udp,prosharedata,proshare conf data,3
+5716,tcp/udp,prosharerequest,proshare conf request,3
+5717,tcp/udp,prosharenotify,proshare conf notify,3
+5729,tcp/udp,openmail,Openmail User Agent Layer,3
+5741,tcp/udp,ida-discover1,IDA Discover Port 1,3
+5742,tcp/udp,ida-discover2,IDA Discover Port 2,3
+5745,tcp/udp,fcopy-server,fcopy-server,3
+5746,tcp/udp,fcopys-server,fcopys-server,3
+5755,tcp/udp,openmailg,OpenMail Desk Gateway server,3
+5757,tcp/udp,x500ms,OpenMail X.500 Directory Server,3
+5766,tcp/udp,openmailns,OpenMail NewMail Server,3
+5767,tcp/udp,s-openmail,OpenMail Suer Agent Layer (Secure),3
+5768,tcp/udp,openmailpxy,OpenMail CMTS Server,3
+6000,tcp/udp,x11,X Window System,5
+6001,tcp/udp,x11,X Window System,5
+6002,tcp/udp,x11,X Window System,5
+6003,tcp/udp,x11,X Window System,5
+6004,tcp/udp,x11,X Window System,5
+6005,tcp/udp,x11,X Window System,5
+6006,tcp/udp,x11,X Window System,5
+6007,tcp/udp,x11,X Window System,5
+6008,tcp/udp,x11,X Window System,5
+6009,tcp/udp,x11,X Window System,5
+6010,tcp/udp,x11,X Window System,5
+6011,tcp/udp,x11,X Window System,5
+6012,tcp/udp,x11,X Window System,5
+6013,tcp/udp,x11,X Window System,5
+6014,tcp/udp,x11,X Window System,5
+6015,tcp/udp,x11,X Window System,5
+6016,tcp/udp,x11,X Window System,5
+6017,tcp/udp,x11,X Window System,5
+6018,tcp/udp,x11,X Window System,5
+6019,tcp/udp,x11,X Window System,5
+6020,tcp/udp,x11,X Window System,5
+6021,tcp/udp,x11,X Window System,5
+6022,tcp/udp,x11,X Window System,5
+6023,tcp/udp,x11,X Window System,5
+6024,tcp/udp,x11,X Window System,5
+6025,tcp/udp,x11,X Window System,5
+6026,tcp/udp,x11,X Window System,5
+6027,tcp/udp,x11,X Window System,5
+6028,tcp/udp,x11,X Window System,5
+6029,tcp/udp,x11,X Window System,5
+6030,tcp/udp,x11,X Window System,5
+6031,tcp/udp,x11,X Window System,5
+6032,tcp/udp,x11,X Window System,5
+6033,tcp/udp,x11,X Window System,5
+6110,tcp/udp,softcm,HP SoftBench CM,3
+6111,tcp/udp,spc,HP SoftBench Sub-Process Control,3
+6112,tcp/udp,dtspcd,dtspcd,3
+6123,tcp/udp,backup-express,Backup Express,3
+6141,tcp/udp,meta-corp,Meta Corporation License Manager,3
+6142,tcp/udp,aspentec-lm,Aspen Technology License Manager,3
+6143,tcp/udp,watershed-lm,Watershed License Manager,3
+6144,tcp/udp,statsci1-lm,StatSci License Manager – 1,3
+6145,tcp/udp,statsci2-lm,StatSci License Manager – 2,3
+6146,tcp/udp,lonewolf-lm,Lone Wolf Systems License Manager,3
+6147,tcp/udp,montage-lm,Montage License Manager,3
+6148,tcp/udp,ricardo-lm,Ricardo North America License Manager,3
+6149,tcp/udp,tal-pod,tal-pod,3
+6253,tcp/udp,crip,CRIP,3
+6389,tcp/udp,clariion-evr01,clariion-evr01,3
+6455,tcp,skip-cert-recv,SKIP Certificate Receive,3
+6456,tcp,skip-cert-send,SKIP Certificate Send,3
+6471,tcp/udp,lvision-lm,LVision License Manager,3
+6472-6499,tcp/udp,#,Unassigned,3
+6500,tcp/udp,boks,BoKS Master,3
+6501,tcp/udp,boks_servc,BoKS Servc,3
+6502,tcp/udp,boks_servm,BoKS Servm,3
+6503,tcp/udp,boks_clntd,BoKS Clntd,3
+6504,tcp/udp,#,Unassigned,3
+6505,tcp/udp,badm_priv,BoKS Admin Private Port,3
+6506,tcp/udp,badm_pub,BoKS Admin Public Port,3
+6507,tcp/udp,bdir_priv,BoKS Dir Server, Private Port,3
+6508,tcp/udp,bdir_pub,BoKS Dir Server, Public Port,3
+6509-6557,tcp/udp,#,Unassigned,3
+6558,tcp/udp,xdsxdm,,3
+6665-6669,tcp/udp,ircu,IRCU,3
+6670,tcp/udp,vocaltec-gold,Vocaltec Global Online Directory,3
+6672,tcp/udp,vision_server,vision_server,3
+6673,tcp/udp,vision_elmd,vision_elmd,3
+6831,tcp/udp,ambit-lm,ambit-lm,3
+6969,tcp/udp,acmsoda,acmsoda,3
+7000,tcp/udp,afs3-fileserver,file server itself,3
+7001,tcp/udp,afs3-callback,callbacks to cache managers,3
+7002,tcp/udp,afs3-prserver,users & groups database,3
+7003,tcp/udp,afs3-vlserver,volume location database,3
+7004,tcp/udp,afs3-kaserver,AFS/Kerberos authentication service,3
+7005,tcp/udp,afs3-volser,volume managment server,3
+7006,tcp/udp,afs3-errors,error interpretation service,3
+7007,tcp/udp,afs3-bos,basic overseer process,3
+7008,tcp/udp,afs3-update,server-to-server updater,3
+7009,tcp/udp,afs3-rmtsys,remote cache manager service,3
+7010,tcp/udp,ups-onlinet,onlinet uninterruptable power supplies,3
+7020,tcp/udp,dpserve,DP Serve,3
+7021,tcp/udp,dpserveadmin,DP Serve Admin,3
+7099,tcp/udp,lazy-ptop,lazy-ptop,3
+7100,tcp/udp,font-service,X Font Service,3
+7121,tcp/udp,virprot-lm,Virtual Prototypes License Manager,3
+7174,tcp/udp,clutild,Clutild,3
+7200,tcp/udp,fodms,FODMS FLIP,3
+7201,tcp/udp,dlip,DLIP,3
+7395,tcp/udp,winqedit,winqedit,3
+7426,tcp/udp,pmdmgr,OpenView DM Postmaster Manager,3
+7427,tcp/udp,oveadmgr,OpenView DM Event Agent Manager,3
+7428,tcp/udp,ovladmgr,OpenView DM Log Agent Manager,3
+7429,tcp/udp,opi-sock,OpenView DM rqt communication,3
+7430,tcp/udp,xmpv7,OpenView DM xmpv7 api pipe,3
+7431,tcp/udp,pmd,OpenView DM ovc/xmpv3 api pipe,3
+7491,tcp/udp,telops-lmd,telops-lmd,3
+7511,tcp/udp,pafec-lm,pafec-lm,3
+7544,tcp/udp,nta-ds,FlowAnalyzer DisplayServer,3
+7545,tcp/udp,nta-us,FlowAnalyzer UtilityServer,3
+7570,tcp/udp,aries-kfinder,Aries Kfinder,3
+7777,tcp/udp,cbt,cbt,3
+7781,tcp/udp,accu-lmgr,accu-lmgr,3
+7932,tcp/udp,t2-drm,Tier 2 Data Resource Manager,3
+7933,tcp/udp,t2-brm,Tier 2 Business Rules Manager,3
+7980,tcp/udp,quest-vista,Quest Vista,3
+7999,tcp/udp,irdmi2,iRDMI2,3
+8000,tcp/udp,irdmi,iRDMI,3
+8001,tcp/udp,vcom-tunnel,VCOM Tunnel,3
+8008,tcp/udp,http-alt,HTTP Alternate,3
+8032,tcp/udp,pro-ed,ProEd,3
+8033,tcp/udp,mindprint,MindPrint,3
+8080,tcp/udp,http-alt,HTTP Alternate (see port 80),3
+8376,tcp/udp,cruise-enum,Cruise ENUM,3
+8377,tcp/udp,cruise-swroute,Cruise SWROUTE,3
+8378,tcp/udp,cruise-config,Cruise CONFIG,3
+8379,tcp/udp,cruise-diags,Cruise DIAGS,3
+8380,tcp/udp,cruise-update,Cruise UPDATE,3
+8400,tcp/udp,cvd,cvd,3
+8401,tcp/udp,sabarsd,sabarsd,3
+8402,tcp/udp,abarsd,abarsd,3
+8403,tcp/udp,admind,admind,3
+8450,tcp/udp,npmp,npmp,3
+8473,tcp,vp2p,Vitual Point to Point,3
+8473,udp,vp2p,itual Point to Point,3
+8554,tcp/udp,rtsp-alt,RTSP Alternate (see port 554),3
+8765,tcp/udp,ultraseek-http,Ultraseek HTTP,3
+8880,tcp/udp,cddbp-alt,CDDBP,3
+8888,tcp,ddi-tcp-1,NewsEDGE server TCP (TCP 1),3
+8888,udp,ddi-udp-1,NewsEDGE server UDP (UDP 1),3
+8889,tcp,ddi-tcp-2,Desktop Data TCP 1,3
+8889,udp,ddi-udp-2,NewsEDGE server broadcast,3
+8890,tcp,ddi-tcp-3,Desktop Data TCP 2,3
+8890,udp,ddi-udp-3,NewsEDGE client broadcast,3
+8891,tcp,ddi-tcp-4,Desktop Data TCP 3: NESS application,3
+8891,udp,ddi-udp-4,Desktop Data UDP 3: NESS application,3
+8892,tcp,ddi-tcp-5,Desktop Data TCP 4: FARM product,3
+8892,udp,ddi-udp-5,Desktop Data UDP 4: FARM product,3
+8893,tcp,ddi-tcp-6,Desktop Data TCP 5: NewsEDGE/Web application,3
+8893,udp,ddi-udp-6,Desktop Data UDP 5: NewsEDGE/Web application,3
+8894,tcp,ddi-tcp-7,Desktop Data TCP 6: COAL application,3
+8894,udp,ddi-udp-7,Desktop Data UDP 6: COAL application,3
+9000,tcp/udp,cslistener,CSlistener,3
+9006,tcp/udp,sctp,SCTP,3
+9090,tcp/udp,websm,WebSM,3
+9535,tcp/udp,man,,3
+9594,tcp/udp,msgsys,Message System,3
+9595,tcp/udp,pds,Ping Discovery Service,3
+9876,tcp/udp,sd,Session Director,3
+9888,tcp/udp,cyborg-systems,CYBORG Systems,3
+9898,tcp/udp,monkeycom,MonkeyCom,3
+9899-9991,tcp/udp,#,Unassigned,3
+9992,tcp/udp,palace,Palace,3
+9993,tcp/udp,palace,Palace,3
+9994,tcp/udp,palace,Palace,3
+9995,tcp/udp,palace,Palace,3
+9996,tcp/udp,palace,Palace,3
+9997,tcp/udp,palace,Palace,3
+9998,tcp/udp,distinct32,Distinct32,3
+9999,tcp/udp,distinct,distinct10007,tcp/udp,mvs-capacity,MVS Capacity,3
+11001,tcp/udp,metasys,Metasys,3
+11367,tcp/udp,atm-uhas,ATM UHAS,3
+12000,tcp/udp,entextxid,IBM Enterprise Extender SNA XID Exchange,3
+12001,tcp/udp,entextnetwk,IBM Enterprise Extender SNA COS Network Priority,3
+12002,tcp/udp,entexthigh,IBM Enterprise Extender SNA COS High Priority,3
+12003,tcp/udp,entextmed,IBM Enterprise Extender SNA COS Medium Priority,3
+12004,tcp/udp,entextlow,IBM Enterprise Extender SNA COS Low Priority,3
+12753,tcp/udp,tsaf,tsaf port,3
+13160,tcp/udp,i-zipqd,I-ZIPQD,3
+13720,tcp/udp,bprd,BPRD Protocol (VERITAS NetBackup),3
+13721,tcp/udp,bpbrm,BPBRM Protocol (VERITAS NetBackup),3
+13782,tcp/udp,bpcd,VERITAS NetBackup,3
+13818,tcp/udp,dsmcc-config,DSMCC Config,3
+13819,tcp/udp,dsmcc-session,DSMCC Session Messages,3
+13820,tcp/udp,dsmcc-passthru,DSMCC Pass-Thru Messages,3
+13821,tcp/udp,dsmcc-download,DSMCC Download Protocol,3
+13822,tcp/udp,dsmcc-ccp,DSMCC Channel Change Protocol,3
+17007,tcp,isode-dua,isode-dua,3
+17007,udp,chipper,,3
+17219,tcp,Chipper,,3
+17219,udp,chipper,Chipper,3
+18000,tcp/udp,biimenu,Beckman Instruments, Inc.,3
+19541,tcp/udp,jcp,JCP Client,3
+21845,tcp/udp,webphone,webphone,3
+21846,tcp/udp,netspeak-is,NetSpeak Corp. Directory Services,3
+21847,tcp/udp,netspeak-cs,NetSpeak Corp. Connection Services,3
+21848,tcp/udp,netspeak-acd,NetSpeak Corp. Automatic Call Distribution,3
+21849,tcp/udp,netspeak-cps,NetSpeak Corp. Credit Processing System,3
+22273,tcp/udp,wnn6,wnn6,3
+22555,tcp,vocaltec-wconf,Vocaltec Web Conference,3
+22555,udp,vocaltec-phone,Vocaltec Internet Phone,3
+22800,tcp/udp,aws-brf,Telerate Information Platform LAN,3
+22951,tcp/udp,brf-gw,Telerate Information Platform WAN,3
+24000,tcp/udp,med-ltp,med-ltp,3
+24001,tcp/udp,med-fsp-rx,med-fsp-rx,3
+24002,tcp/udp,med-fsp-tx,med-fsp-tx,3
+24003,tcp/udp,med-supp,med-supp,3
+24004,tcp/udp,med-ovw,med-ovw,3
+24005,tcp/udp,med-ci,med-ci,3
+24006,tcp/udp,med-net-svc,med-net-svc,3
+25000,tcp/udp,icl-twobase1,icl-twobase1,3
+25001,tcp/udp,icl-twobase2,icl-twobase2,3
+25002,tcp/udp,icl-twobase3,icl-twobase3,3
+25003,tcp/udp,icl-twobase4,icl-twobase4,3
+25004,tcp/udp,icl-twobase5,icl-twobase5,3
+25005,tcp/udp,icl-twobase6,icl-twobase6,3
+25006,tcp/udp,icl-twobase7,icl-twobase7,3
+25007,tcp/udp,icl-twobase8,icl-twobase8,3
+25008,tcp/udp,icl-twobase9,icl-twobase9,3
+25009,tcp/udp,icl-twobase10,icl-twobase10,3
+25793,tcp/udp,vocaltec-hos,Vocaltec Address Server,3
+26000,tcp/udp,quake,quake,3
+26208,tcp/udp,wnn6-ds,wnn6-ds,3
+27000-27009,tcp/udp,flex-lm,FLEX LM (1-10),3
+27999,tcp,tw-auth-key,TW Authentication/Key Distribution and,3
+27999,udp,tw-auth-key,Attribute Certificate Services,3
+33434,tcp/udp,traceroute,traceroute use,3
+44818,tcp/udp,rockwell-encap,Rockwell Encapsulation,3
+45678,tcp/udp,eba,EBA PRISE,3
+47557,tcp/udp,dbbrowse,Databeam Corporation,3
+47624,tcp/udp,directplaysrvr,Direct Play Server,3
+47806,tcp/udp,ap,ALC Protocol,3
+47808,tcp/udp,bacnet,Building Automation and Control Networks,3
