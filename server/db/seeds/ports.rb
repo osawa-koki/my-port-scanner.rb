@@ -18,3 +18,12 @@ CSV.parse(file, headers: true).each do |row|
     p.protocol_ids = protocol_ids
   end
 end
+
+(1..65_535).each do |id|
+  Port.find_or_create_by!(id:) do |p|
+    p.service = 'unknown'
+    p.description = 'unknown'
+    p.severity = 3
+    p.protocol_ids = []
+  end
+end
