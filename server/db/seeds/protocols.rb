@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 protocols = [
   { id: 1, name: 'TCP', description: 'Transmission Control Protocol' },
   { id: 2, name: 'UDP', description: 'User Datagram Protocol' }

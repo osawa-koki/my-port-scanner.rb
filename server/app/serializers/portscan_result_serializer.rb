@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PortscanResultSerializer < ActiveModel::Serializer
   attributes :id
   attributes :port_number

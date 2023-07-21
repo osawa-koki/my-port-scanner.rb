@@ -3,5 +3,3 @@ Documentation:
 Metrics/BlockLength:
   Exclude:
     - db/schema.rb
-Style/FrozenStringLiteralComment:
-  Enabled: false

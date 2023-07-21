@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PortscanResult < ApplicationRecord
   belongs_to :portscan
   belongs_to :port
