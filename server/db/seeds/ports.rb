@@ -19,8 +19,8 @@ CSV.parse(file, headers: true).each do |row|
   end
 end
 
-(1..65535).each do |id|
-  Port.find_or_create_by!(id: id) do |p|
+(1..65_535).each do |id|
+  Port.find_or_create_by!(id:) do |p|
     p.service = 'unknown'
     p.description = 'unknown'
     p.severity = 3
