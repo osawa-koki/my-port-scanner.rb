@@ -1,7 +1,11 @@
+# frozen_string_literal: true
+
 require 'csv'
 
 file = File.read(Rails.root.join('db', 'data', 'ports.csv'))
 CSV.parse(file, headers: true).each do |row|
+  next if row['id'].nil?
+
   id = row['id'].to_i
   tcp = row['protocol'].include?('tcp')
   udp = row['protocol'].include?('udp')

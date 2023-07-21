@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Api
   class PortsController < ApplicationController
     def index # rubocop:disable Metrics/MethodLength

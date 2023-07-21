@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreatePortProtocols < ActiveRecord::Migration[7.0]
   def change
     create_table :port_protocols do |t|
