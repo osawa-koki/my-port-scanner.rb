@@ -68,6 +68,9 @@ function TableComponent (): JSX.Element {
 
   return (
     <>
+    <Alert variant='info'>
+      ポートスキャンの結果は、全ユーザで共有されます。
+    </Alert>
     <Pagination className='mt-3'>
       <Pagination.First onClick={() => { setPage(1) }} disabled={page === 1} />
       <Pagination.Prev onClick={() => { setPage(pagination!.current_page - 1) }} disabled={pagination?.prev_page === null} />
