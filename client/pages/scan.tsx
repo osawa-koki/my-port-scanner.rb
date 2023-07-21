@@ -46,6 +46,9 @@ export default function ScanPage (): JSX.Element {
   return (
     <Layout>
       <h1>Scan</h1>
+      <Alert variant='info'>
+        ポートスキャンの結果は、全ユーザで共有されます。
+      </Alert>
       <Form>
         <Form.Group className='mt-3'>
           <Form.Label>Host</Form.Label>
