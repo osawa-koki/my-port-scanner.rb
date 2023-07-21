@@ -19,6 +19,11 @@ interface IPortscanResult {
     open: boolean
     created_at: Date
     updated_at: Date
+    port: {
+      port_number: number
+      service: string
+      severity: number
+    }
   }>
 }
 
@@ -87,6 +92,7 @@ function Component (): JSX.Element {
           <tr>
             <th>Port</th>
             <th>Open</th>
+            <th>Severity</th>
             <th>Exec Date</th>
           </tr>
         </thead>
@@ -95,8 +101,33 @@ function Component (): JSX.Element {
             .sort((a, b) => a.port_number - b.port_number)
             .map((portscanResult) => (
             <tr key={portscanResult.id}>
-              <td>{portscanResult.port_number}</td>
-              <td>{portscanResult.open ? <BsLightningChargeFill className='text-danger' /> : <BsLightningCharge />}</td>
+              <td>
+                <OverlayTrigger
+                  placement="right"
+                  overlay={
+                    <Tooltip id="tooltip-bottom">
+                      {portscanResult.port.service}
+                    </Tooltip>
+                  }
+                >
+                  <span role="button">{portscanResult.port_number}</span>
+                </OverlayTrigger>
+              </td>
+              <td>{portscanResult.open ? <BsLightningChargeFill className='text-danger' /> : <BsLightningCharge opacity={0.3} />}</td>
+              <td>
+                {
+                  (() => {
+                    const jsxes: JSX.Element[] = []
+                    for (let i = 0; i < portscanResult.port.severity; i++) {
+                      jsxes.push(<BsLightningChargeFill className={portscanResult.open ? 'text-danger' : 'text-info'} key={i} />)
+                    }
+                    for (let i = 0; i < 5 - portscanResult.port.severity; i++) {
+                      jsxes.push(<BsLightningCharge opacity={0.3} key={i + portscanResult.port.severity} />)
+                    }
+                    return jsxes
+                  })()
+                }
+              </td>
               <td>{dayjs(portscanResult.created_at).format('YYYY-MM-DD HH:mm:ss')}</td>
             </tr>
             ))}
