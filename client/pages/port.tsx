@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import React, { useEffect, useMemo, useState } from 'react'
 import { useRouter } from 'next/router'
-import { Alert, Pagination, Spinner, Table } from 'react-bootstrap'
+import { Alert, Badge, Pagination, Spinner, Table } from 'react-bootstrap'
 import { BsLightningFill } from 'react-icons/bs'
 import useSWR from 'swr'
 import Layout from '../components/Layout'
@@ -95,6 +95,7 @@ function TableComponent (): JSX.Element {
       <thead>
         <tr>
           <th>Port Number</th>
+          <th>Protocols</th>
           <th>Service</th>
           <th>Description</th>
           <th>Severity</th>
@@ -104,6 +105,13 @@ function TableComponent (): JSX.Element {
         {portscans?.map((portscan) => (
           <tr key={portscan.id}>
             <td>{portscan.port_number}</td>
+            <td>
+              {
+                portscan.protocols.map((protocol) => (
+                  <Badge key={protocol.id} className='mx-1 my-1' bg="secondary">{protocol.name}</Badge>
+                ))
+              }
+            </td>
             <td>{portscan.service}</td>
             <td>{portscan.description}</td>
             <td>
