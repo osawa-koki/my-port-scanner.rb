@@ -1,4 +1,7 @@
-Style/FrozenStringLiteralComment:
-  Enabled: false
 Documentation:
+  Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - db/schema.rb
+Style/FrozenStringLiteralComment:
   Enabled: false
