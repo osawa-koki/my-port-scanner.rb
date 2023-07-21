@@ -13,6 +13,11 @@ const pages = [
     emoji: '📚',
     path: '/scan/',
     name: 'Scan'
+  },
+  {
+    emoji: '📊',
+    path: '/port/',
+    name: 'Port'
   }
 ]
 
